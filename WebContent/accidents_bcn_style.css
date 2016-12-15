@@ -12,9 +12,9 @@ html, body, #map {
 }
 
 .stations svg {
-  width: 60px;
-  height: 20px;
-  padding-right: 100px;
+  width: 100px;
+  height: 30px;
+  padding-right: 000px;
   font: 10px sans-serif;
 }
 
