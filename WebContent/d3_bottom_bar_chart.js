@@ -41,7 +41,7 @@ var context = svg.append("g")
     .attr("class", "context")
     .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
 
-d3.csv("ACCIDENTS_GU_BCN_2015_small.csv", function(error, data) {
+d3.csv(datafile, function(error, data) {
   if (error) throw error;
 
 //Process the data to build the stacked bar data

@@ -1,7 +1,7 @@
-console.log(styledMapType);
+var datafile = "ACCIDENTS_GU_BCN_2015.csv";
 var map = new google.maps.Map(d3.select("#main_map").node(), {
 	center: {lat:41.3851, lng: 2.2000},
-	zoom: 15,
+	zoom: 11,
 	mapTypeControlOptions: {
 		mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
 		             'styled_map']
@@ -20,7 +20,7 @@ function paint_points_in_map() {
 		overlay.setMap(null);
 	}
 
-	d3.csv("ACCIDENTS_GU_BCN_2015_small.csv", function(error, data) {
+	d3.csv(datafile, function(error, data) {
 		//Here data contains all data
 	  if (error) throw error;
 	  overlay = new google.maps.OverlayView();
@@ -57,13 +57,8 @@ function paint_points_in_map() {
 	          .text(function(d) { return d.key; });
 	*/		
 	      function transform(d) {
-	    	if(filter_data_row(d)) {
-	    		//console.log(d);
-		    	
-		    	var latlng=ToLL(d.value.CoordenadaUTMY,d.value.CoordenadaUTMX,31);
-		//    	console.log(latlng);
-		//    	console.log(latlng.lat);
-		        d = new google.maps.LatLng(latlng.lat,latlng.lon);
+	    	if(filter_data_row(d)) {	    		
+		        d = new google.maps.LatLng(d.value.Lat,d.value.Long);
 		        d = projection.fromLatLngToDivPixel(d);
 		        return d3.select(this)
 		            .style("left", (d.x) + "px")//-28 , +48
