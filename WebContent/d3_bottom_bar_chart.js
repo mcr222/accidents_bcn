@@ -2,8 +2,8 @@ var svg = d3.select("#bottom_bar_chart").append("svg"),
     margin = {top: 20, right: 20, bottom: 110, left: 40},
     margin2 = {top: 10, right: 20, bottom: 10, left: 10},
     width = 1350 - margin.left - margin.right,
-    height = 110 - margin.top - margin.bottom,
-    height2 = 100 - margin2.top - margin2.bottom;
+    height = 60 - margin.top - margin.bottom,
+    height2 = 50 - margin2.top - margin2.bottom;
 
 var dateBuckets = [];
 currentDate = minimumDate;
