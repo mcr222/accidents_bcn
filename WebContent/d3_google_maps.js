@@ -12,9 +12,6 @@ map.setMapTypeId('styled_map');
 var overlay;
 // Load the station data. When the data comes back, create an overlay.
 function paint_points_in_map() {
-	console.log("aaaaaaaaaaa");
-	console.log(earliestDate);
-	console.log(latestDate);
 	
 	if(overlay!=null) {
 		overlay.setMap(null);
