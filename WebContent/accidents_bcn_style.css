@@ -1,11 +1,24 @@
 @CHARSET "UTF-8";
 
-html, body, #map {
+html, body, #main_map {
   width: 100%;
-  height: 100%;
+  height: 93%;
   margin: 0;
   padding: 0;
 }
+
+#bottom_bar_chart {
+	width:100%;
+	height:32%;	
+}
+
+svg#bottom_bar_chart_svg{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
 
 .stations, .stations svg {
   position: absolute;
@@ -24,6 +37,31 @@ html, body, #map {
   stroke-width: 1.5px;
 }
 
-.paint {
-	fill: brown;
+
+
+.axis--grid .domain {
+  fill: #ddd;
+  stroke: none;
 }
+
+.axis--x .domain,
+.axis--grid .tick line {
+  stroke: #fff;
+}
+
+.axis--grid .tick--minor line {
+  stroke-opacity: .5;
+}
+
+.area {
+  fill: steelblue;
+  clip-path: url(#clip);
+}
+
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+
+
