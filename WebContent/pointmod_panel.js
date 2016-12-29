@@ -1,34 +1,43 @@
-/**
- * 
- */
+
 //var selectedVal = document.querySelector('input[name="group1"]:checked').value;
 
 //alert('You selected: ' + selectedVal);
 var count=0;
-function plot_point(marker, padding){
-//	Add a circle.
-	marker.append("circle")
-	.attr("r", 1.5)
-	.attr("cx", padding)
-	.attr("cy", padding)
-	.style("fill", function(d) { return  "white"; });
-	count++;
-	console.log(count);
+function obtain_values(d){
+	var data = d.value;
+	if(data==null) {
+		data = d;
+	}
+	return data;
 }
 
-
-
-
+function obtain_color(d){
+	var data=obtain_values(d);
+	if (data["Numero de morts"]>0){
+		return  "blue";   
+	}
+	else if(data["Numero de lesionats greus"]>0){
+		return "black";
+	}
+	else if(data["Numero de lesionats lleus"]==0){
+		return "white";
+	}
+	else if(data["Numero de lesionats lleus"]==2){
+		return "yellow";
+	}
+	else if(data["Numero de lesionats lleus"]==1){
+		return "red";
+	}
+	else if(data["Numero de lesionats lleus"]==3){
+		return "green";
+	}
+	else return "purple";
+}
 //var values
 //Número de morts	Número de lesionats lleus	Número de lesionats greus
-
+/*
 var color_selection_array = [color_selection];
 var number_colors_selected = color_selection_array.length;
-
-
-
-
-
 
 function select_color_data_row(d) {
 	//return true if data row d does not want to be filtered
@@ -42,10 +51,13 @@ function select_color_data_row(d) {
 	return true;
 }
 function color_selection(d) {
-	var date = obtain_Date(d);
-	if( date.getTime()< earliestDate.getTime() || latestDate.getTime()< date.getTime()) {
+	var deaths = obtain_deaths(d);
+	if( deaths==null) {
 		return false;
 	}
 	return true;
-	
+
 }
+
+
+ */
