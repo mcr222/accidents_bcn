@@ -31,7 +31,7 @@ function paint_points_in_map() {
 	    // We could use a single SVG, but what size would it have?
 	    overlay.draw = function() {
 	      var projection = this.getProjection(),
-	          padding = 5;
+	          padding = 3;
 	
 	      var marker = layer.selectAll("svg")
 	          .data(d3.entries(data))
@@ -44,7 +44,11 @@ function paint_points_in_map() {
 	      marker.append("circle")
 	          .attr("r", 2.5)
 	          .attr("cx", padding)
-	          .attr("cy", padding);
+	          .attr("cy", padding)
+	          .style("fill", obtain_color);
+	          
+	      
+	     
 	/*
 	      // Add a label.
 	      marker.append("text")

@@ -1,8 +1,15 @@
 
-//var selectedVal = document.querySelector('input[name="group1"]:checked').value;
+var selectedOpt=document.querySelector('input[name="group1"]:checked').value;
+var radios = document.querySelectorAll('input[name="group1"]');
 
-//alert('You selected: ' + selectedVal);
-var count=0;
+function changeHandler(event) {
+	selectedOpt=this.value;
+	paint_points_in_map();
+}
+Array.prototype.forEach.call(radios, function(radio) {
+	   radio.addEventListener('change', changeHandler);
+	});
+
 function obtain_values(d){
 	var data = d.value;
 	if(data==null) {
@@ -13,29 +20,31 @@ function obtain_values(d){
 
 function obtain_color(d){
 	var data=obtain_values(d);
-	if (data["Numero de morts"]>0){
-		return  "blue";   
-	}
-	else if(data["Numero de lesionats greus"]>0){
-		return "black";
-	}
-	else if(data["Numero de lesionats lleus"]==0){
-		return "white";
-	}
-	else if(data["Numero de lesionats lleus"]==2){
-		return "yellow";
-	}
-	else if(data["Numero de lesionats lleus"]==1){
-		return "red";
-	}
-	else if(data["Numero de lesionats lleus"]==3){
-		return "green";
-	}
-	else return "purple";
+
+	switch(selectedOpt) {
+	case "deaths":
+		if (parseInt(data["Numero de morts"])>0){
+			return  "blue";  
+		}
+		else return "white";
+		break;
+	case "minorInjuries":
+		if (parseInt(data["Numero de lesionats lleus"])>0){
+			return  "red";  
+		}
+		else return "grey";
+		break;
+	default:
+		if (parseInt(data["Numero de lesionats greus"])>0){
+			return  "yellow";  
+		}
+		else return "green";
+	break;
+	} 
 }
-//var values
-//Número de morts	Número de lesionats lleus	Número de lesionats greus
-/*
+//	var values
+//	Número de morts	Número de lesionats lleus	Número de lesionats greus
+	/*
 var color_selection_array = [color_selection];
 var number_colors_selected = color_selection_array.length;
 
@@ -60,4 +69,4 @@ function color_selection(d) {
 }
 
 
- */
+	 */
