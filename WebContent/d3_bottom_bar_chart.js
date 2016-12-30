@@ -98,13 +98,30 @@ function brushed() {
   if (d3.event.sourceEvent && d3.event.sourceEvent.type === "zoom") return; // ignore brush-by-zoom
   var s = d3.event.selection || x2.range();
   var range = s.map(x2.invert, x2);
-  earliestDate = range[0];
-  latestDate = range[1];
 
-  if(timer!=null) {
-	  window.clearTimeout(timer);
-  }
-
-  timer = window.setTimeout(paint_points_in_map,500);
-  
+  rangeUpdate(range[0],range[1]);
 }
+
+var late_date_text = document.getElementById("maxDate");
+var early_date_text = document.getElementById("minDate");
+
+function getDateString(date) {
+	var str = date.toString();
+	return str.substring(4,24);
+}
+
+function rangeUpdate(date1,date2){
+	  earliestDate = date1;
+	  latestDate = date2;
+	  
+	  early_date_text.innerHTML = getDateString(date1);
+	  late_date_text.innerHTML = getDateString(date2);
+
+
+	  if(timer!=null) {
+		  window.clearTimeout(timer);
+	  }
+
+	  timer = window.setTimeout(paint_points_in_map,500);
+}
+
