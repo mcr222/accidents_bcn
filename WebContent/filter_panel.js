@@ -1,17 +1,3 @@
-var filter_variable_options = [//"Day description",
-                               "Week day",
-                               "Day part"];
-var filter_variable_opcions = [//"Descripcio tipus dia",
-                               "Descripcio dia setmana",
-                               "Descripcio torn"];
-
-var filter_values_options = [//["Working","Holiday"],
-            ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-            ["Morning","Afternoon","Night"]];
-
-var filter_values_opcions = [//["Laborable","Festiu"],
-             ["Dilluns","Dimarts","Dimecres","Dijous","Divendres","Dissabte","Diumenge"],
-             ["Mati","Tarda","Nit"]];
 
 var variable_options = document.getElementById("filter_variable_options");
 var values_options = document.getElementById("filter_values_options");
@@ -35,7 +21,7 @@ row.id = "header";
 var cell0 = row.insertCell(0);
 cell0.innerHTML = "Variable";
 var cell1 = row.insertCell(1);
-cell1.innerHTML = "Keep values";
+cell1.innerHTML = "Keep values (&&)";
 var cell2 = row.insertCell(2);
 cell2.innerHTML = "";
 

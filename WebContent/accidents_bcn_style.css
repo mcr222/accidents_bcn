@@ -57,6 +57,7 @@ table {
     font-size: 12px;
     border-collapse: collapse;
     width: 100%;
+    word-wrap: break-word;
 }
 
 td, th {
