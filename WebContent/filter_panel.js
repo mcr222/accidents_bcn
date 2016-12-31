@@ -2,7 +2,7 @@ var filter_variable_options = [//"Day description",
                                "Week day",
                                "Day part"];
 var filter_variable_opcions = [//"Descripcio tipus dia",
-                               "Dia setmana",
+                               "Descripcio dia setmana",
                                "Descripcio torn"];
 
 var filter_values_options = [//["Working","Holiday"],
@@ -16,6 +16,8 @@ var filter_values_opcions = [//["Laborable","Festiu"],
 var variable_options = document.getElementById("filter_variable_options");
 var values_options = document.getElementById("filter_values_options");
 var button_add = document.getElementById("add_filter");
+var filters_table_widget = document.getElementById("filters_table");
+
 
 button_add.addEventListener("click",addFilter);
 
@@ -27,6 +29,15 @@ for(var i=0;i<filter_variable_options.length;++i) {
 	option.text = filter_variable_options[i];
 	variable_options.add(option);
 }
+
+var row = filters_table_widget.insertRow();
+row.id = "header";
+var cell0 = row.insertCell(0);
+cell0.innerHTML = "Variable";
+var cell1 = row.insertCell(1);
+cell1.innerHTML = "Keep values";
+var cell2 = row.insertCell(2);
+cell2.innerHTML = "";
 
 var idx=0;
 fillValuesOptions();
@@ -81,7 +92,37 @@ function addFilter() {
 	
 }
 
+var filter_table={};
+
 function addRow(variable, values) {
-	console.log(values);
-	console.log(variable);
+	var length = Object.keys(filter_table).length;
+	filter_table[variable+values] = [variable,values];
+	if(length<Object.keys(filter_table).length) {
+		var row = filters_table_widget.insertRow(-1);
+		row.id = "row"+variable+values;
+		var button_close = document.createElement("button");
+		button_close.id = variable+values;
+		button_close.className = "close_button";
+		button_close.innerHTML = "x";
+		button_close.addEventListener("click",removeFilter);
+		var cell0 = row.insertCell(0);
+		cell0.innerHTML = variable;
+		var cell1 = row.insertCell(1);
+		cell1.innerHTML = values;
+		var cell2 = row.insertCell(2);
+		cell2.appendChild(button_close);
+	}
+	console.log(filter_table);
+	paint_points_in_map();
 }
+
+function removeFilter() {
+	var row = document.getElementById("row"+this.id);
+    row.parentNode.removeChild(row);
+    delete filter_table[this.id];
+	console.log(filter_table);
+	paint_points_in_map();
+}
+
+
+
