@@ -78,5 +78,3 @@ function paint_points_in_map() {
 	  overlay.setMap(map);
 	});
 }
-
-paint_points_in_map();
