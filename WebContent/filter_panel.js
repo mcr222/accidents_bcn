@@ -15,6 +15,10 @@ var filter_values_opcions = [//["Laborable","Festiu"],
 
 var variable_options = document.getElementById("filter_variable_options");
 var values_options = document.getElementById("filter_values_options");
+var button_add = document.getElementById("add_filter");
+
+button_add.addEventListener("click",addFilter);
+
 variable_options.addEventListener("change", selectedValueVariable);
 var option;
 for(var i=0;i<filter_variable_options.length;++i) {
@@ -24,26 +28,26 @@ for(var i=0;i<filter_variable_options.length;++i) {
 	variable_options.add(option);
 }
 
-fillValuesOptions(0);
+var idx=0;
+fillValuesOptions();
 
 function selectedValueVariable(){
 	var variable = variable_options.value;
-	var i= filter_variable_opcions.indexOf(variable);
-	fillValuesOptions(i);
+	idx = filter_variable_opcions.indexOf(variable);
+	fillValuesOptions();
 }
 
-function fillValuesOptions(i) {
+function fillValuesOptions() {
 	cleanValuesOptions();
 	var checkbox_values;
-	var values = filter_values_options[i];
-	var valors = filter_values_opcions[i];
+	var values = filter_values_options[idx];
+	var valors = filter_values_opcions[idx];
 	for(var j=0;j<values.length;++j) {
 		var checkbox_values = document.createElement("input");
 		checkbox_values.type = "checkbox";
-		checkbox_values.value = valors[j];
-		checkbox_values.name = values[j];
+		checkbox_values.id = valors[j];
+		checkbox_values.value = filter_variable_opcions[idx];
 		var label = document.createElement('label')
-		label.htmlFor = "id";
 		label.appendChild(document.createTextNode(values[j]));
 		var container = document.createElement("div");
 		container.appendChild(checkbox_values);
@@ -58,3 +62,26 @@ function cleanValuesOptions() {
 	}
 }
 
+function addFilter() {
+	var children = values_options.children;
+	var selected_values = [];
+	var variable_selected;
+	for(var j=0;j<children.length;++j) {
+		var child = children[j].children[0];
+		if(child.checked) {
+			selected_values.push(child.id);
+			variable_selected = child.value;
+		}
+	}
+
+	if(selected_values.length!=0){
+		addRow(variable_selected,selected_values);
+		fillValuesOptions();
+	}
+	
+}
+
+function addRow(variable, values) {
+	console.log(values);
+	console.log(variable);
+}
