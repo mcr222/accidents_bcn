@@ -2,6 +2,8 @@
 var selectedOpt=document.querySelector('input[name="group1"]:checked').value;
 var radios = document.querySelectorAll('input[name="group1"]');
 
+
+
 function changeHandler(event) {
 	selectedOpt=this.value;
 	paint_points_in_map();
@@ -18,28 +20,33 @@ function obtain_values(d){
 	return data;
 }
 
+var linearScale; 
 function obtain_color(d){
 	var data=obtain_values(d);
-
+	if (selectedOpt==null){
+		return "white";
+	}
 	switch(selectedOpt) {
 	case "deaths":
-		if (parseInt(data["Numero de morts"])>0){
-			return  "blue";  
-		}
-		else return "white";
+		linearScale = d3.scaleLinear()
+        .domain([0,3])
+        .range(["white","red"]);
+		return linearScale(data["Numero de morts"]);	
 		break;
 	case "minorInjuries":
-		if (parseInt(data["Numero de lesionats lleus"])>0){
-			return  "red";  
-		}
-		else return "grey";
+		linearScale = d3.scaleLinear()
+    	.domain([0,11])
+    	.range(["white","red"]);
+	return linearScale(data["Numero de lesionats lleus"]);
 		break;
-	default:
-		if (parseInt(data["Numero de lesionats greus"])>0){
-			return  "yellow";  
-		}
-		else return "green";
+	case "seriousInjuries":
+		linearScale = d3.scaleLinear()
+    	.domain([0,3])
+    	.range(["white","red"]);
+	return linearScale(data["Numero de lesionats greus"]);
 	break;
+	default:
+		
 	} 
 }
 //	var values
