@@ -13,6 +13,22 @@ var filter_variable_opcions = ["Descripcio dia setmana",
                                "Numero de lesionats lleus",
                                "Numero de lesionats greus"];
 
+var dictionary_translate = {"Descripcio dia setmana":"Week day",
+                            "Descripcio torn":"Day part",
+                            "Nom districte":"Neighborhood",
+                            "Descripcio causa vianant":"Pedestrian cause",
+                            "Numero de morts":"Deaths",
+                            "Numero de lesionats lleus":"Minor injuries",
+                            "Numero de lesionats greus":"Serious injuries",
+                            "Hora de dia":"Hour",
+                            "Dia de mes":"Day",
+                            "Numero de vehicles implicats":"Vehicles involved"
+                            };
+
+function translate(str_catalan) {
+	return dictionary_translate[str_catalan];
+}
+
 var filter_values_options = [["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
             ["Morning","Afternoon","Night"],
             ['Gracia', 'Ciutat Vella' , 'Eixample' , 'Unknown' , 'Sant Andreu' , 'Sants-Montju\xefc' , 'Sant Marti' , 'Les Corts' , 'Horta-Guinardo' , 'Sarria-Sant Gervasi' , 'Nou Barris'],

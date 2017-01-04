@@ -8,7 +8,7 @@ var x = d3.scaleBand().rangeRound([0, width]).padding(1),
 
 
 var line = d3.line(),
-    axis = d3.axisLeft(x),
+    //axis = d3.axisLeft(x),
     background,
     foreground,
     extents;
@@ -85,13 +85,13 @@ d3.csv(datafile, function(error, cars) {
   // Add an axis and title.
   g.append("g")
       .attr("class", "axis")
-      .each(function(d) {
-    	  d3.select(this).call(axis.scale(y[d])); })
+      .each(function(d) {  d3.select(this).call(d3.axisLeft(y[d]));})
+      //text does not show up because previous line breaks somehow
     .append("text")
       .style("text-anchor", "middle")
       .attr("y", -9)
-      .attr("dy", "1em")
-      .text(function(d) { return d; });
+      .attr("fill", "black")  
+      .text(function(d) { return translate(d); });
 
   // Add and store a brush for each axis.
   g.append("g")
