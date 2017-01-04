@@ -2,15 +2,14 @@
 var selectedOpt=document.querySelector('input[name="group1"]:checked').value;
 var radios = document.querySelectorAll('input[name="group1"]');
 
-
-
 function changeHandler(event) {
 	selectedOpt=this.value;
 	paint_points_in_map();
 }
+
 Array.prototype.forEach.call(radios, function(radio) {
-	   radio.addEventListener('change', changeHandler);
-	});
+	radio.addEventListener('change', changeHandler);
+});
 
 function obtain_values(d){
 	var data = d.value;
@@ -20,7 +19,22 @@ function obtain_values(d){
 	return data;
 }
 
-var linearScale; 
+var colorsWeekdays=["red", "white", "blue", "green", "yellow", "brown", "orange"];
+var colorsPedestrianCause=["red", "white", "blue", "green", "yellow", "orange"];
+var colorsDayPart=["red", "white", "blue"];
+var colorsNeihgborhoods=["black","red", "white", "blue", "green", "yellow", "orange",
+                         "grey", "pink", "brown","purple" ];
+var codiBarris=[-1,1,2,3,4,5,6,7,8,9,10];
+var colours = ["#6363FF", "#6373FF", "#63A3FF", "#63E3FF", "#63FFFB", "#63FFCB",
+               "#63FF9B", "#63FF6B", "#7BFF63", "#BBFF63", "#DBFF63", "#FBFF63", 
+               "#FFD363", "#FFB363", "#FF8363", "#FF7363", "#FF6364"];
+
+var heatmapColour = d3.scaleLinear()
+.domain(d3.range(0, 1, 1.0 / (colours.length - 1)))
+.range(colours);
+
+var c;
+
 function obtain_color(d){
 	var data=obtain_values(d);
 	if (selectedOpt==null){
@@ -28,52 +42,29 @@ function obtain_color(d){
 	}
 	switch(selectedOpt) {
 	case "deaths":
-		linearScale = d3.scaleLinear()
-        .domain([0,3])
-        .range(["white","red"]);
-		return linearScale(data["Numero de morts"]);	
+		c=d3.scaleLinear().domain([0,3]).range([0,1]);
+		return heatmapColour(c(data["Numero de morts"]));	
 		break;
 	case "minorInjuries":
-		linearScale = d3.scaleLinear()
-    	.domain([0,11])
-    	.range(["white","red"]);
-	return linearScale(data["Numero de lesionats lleus"]);
+		c=d3.scaleLinear().domain([0,11]).range([0,1]);
+		return heatmapColour(c(data["Numero de lesionats lleus"]));
 		break;
 	case "seriousInjuries":
-		linearScale = d3.scaleLinear()
-    	.domain([0,3])
-    	.range(["white","red"]);
-	return linearScale(data["Numero de lesionats greus"]);
-	break;
+		c=d3.scaleLinear().domain([0,3]).range([0,1]);
+		return heatmapColour(c(data["Numero de lesionats greus"]));
+	case "neighborhood":
+		c=d3.scaleOrdinal().domain(codiBarris).range(colorsNeihgborhoods);
+		return c(data["Codi districte"]);
+		break;
+	case "weekDay":
+		c=d3.scaleOrdinal().domain(filter_values_opcions[0]).range(colorsWeekdays);
+		return c(data["Descripcio dia setmana"]);
+	case "dayPart":
+		c=d3.scaleOrdinal().domain(filter_values_opcions[1]).range(colorsDayPart);
+		return c(data["Descripcio torn"]);
+	case "pedestrianCause":
+		c=d3.scaleOrdinal().domain(filter_values_opcions[3]).range(colorsPedestrianCause);
+		return c(data["Descripcio causa vianant"]);
 	default:
-		
 	} 
 }
-//	var values
-//	Número de morts	Número de lesionats lleus	Número de lesionats greus
-	/*
-var color_selection_array = [color_selection];
-var number_colors_selected = color_selection_array.length;
-
-function select_color_data_row(d) {
-	//return true if data row d does not want to be filtered
-	for (var i=0;i<number_colors_selected;i++) {
-		//if any of the filters is false then row is filtered
-		if(!color_selection_array[i](d)) {
-			return false;
-		}
-	}
-	//if all filters are true then data row is not filtered
-	return true;
-}
-function color_selection(d) {
-	var deaths = obtain_deaths(d);
-	if( deaths==null) {
-		return false;
-	}
-	return true;
-
-}
-
-
-	 */
