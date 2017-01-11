@@ -5,6 +5,22 @@ html, body {
 	height: 100%;
 }
 
+#legend {
+	font-family: Arial, sans-serif;
+	background: #fff;
+	padding: 10px;
+	margin: 10px;
+	border: 3px solid #000;
+}
+
+#legend h3 {
+	margin-top: 0;
+}
+
+#legend img {
+	vertical-align: middle;
+}
+
 #top_div {
 	width: 100%;
 	height: 87%;
@@ -23,22 +39,21 @@ html, body {
 }
 
 #filters_top_panel {
-	height: 49%;	
+	height: 49%;
 }
 
 #filter_variable_options {
 	font-size: 11px;
 	width: 45%;
 	height: 9%;
-	float:left;
+	float: left;
 }
 
 #add_filter {
 	width: 45%;
-	float:right;
+	float: right;
 	cursor: pointer;
 }
-
 
 #filter_values_options {
 	width: 90%;
@@ -47,34 +62,34 @@ html, body {
 }
 
 #filters_table {
-	width:100%;
-	height:50%;
+	width: 100%;
+	height: 50%;
 	overflow-y: scroll;
 }
 
 table {
-    font-family: arial, sans-serif;
-    font-size: 12px;
-    border-collapse: collapse;
-    width: 100%;
-    word-wrap: break-word;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	border-collapse: collapse;
+	width: 100%;
+	word-wrap: break-word;
 }
 
 td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
+	border: 1px solid #dddddd;
+	text-align: left;
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+	background-color: #dddddd;
 }
 
-.close_button{
+.close_button {
 	background-color: red;
 	padding: 0px;
 	margin: 0px;
 	border: none;
-	border-radius:10px;
+	border-radius: 10px;
 	border: none;
 }
 
@@ -83,52 +98,58 @@ tr:nth-child(even) {
 	background-color: #4B4D65;
 	overflow-y: scroll;
 }
+
 .section {
-  padding: 10%;
-  padding-left: 65px;
+	padding: 10%;
+	padding-left: 65px;
 }
-.section input[type="radio"]{
-  display: none;
+
+.section input[type="radio"] {
+	display: none;
 }
+
 .container {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
+
 .container label {
-  position: relative;
+	position: relative;
 }
 
 /* Base styles for spans */
-.container span::before,
-.container span::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+.container span::before, .container span::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
 }
 
 /* Radio buttons */
 .container span.radio:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
+
 .container span.radio::before {
-  left: -52px;
-  width: 45px;
-  height: 25px;
-  background-color: #A8AAC1;
-  border-radius: 50px;
+	left: -52px;
+	width: 45px;
+	height: 25px;
+	background-color: #A8AAC1;
+	border-radius: 50px;
 }
+
 .container span.radio::after {
-  left: -49px;
-  width: 17px;
-  height: 17px;
-  border-radius: 10px;
-  background-color: #6C788A;
-  transition: left .25s, background-color .25s;
+	left: -49px;
+	width: 17px;
+	height: 17px;
+	border-radius: 10px;
+	background-color: #6C788A;
+	transition: left .25s, background-color .25s;
 }
-input[type="radio"]:checked + label span.radio::after {
-  left: -27px;
-  background-color: #EBFF43;
+
+input[type="radio"]:checked+label span.radio::after {
+	left: -27px;
+	background-color: #EBFF43;
 }
 
 #bottom_div {
@@ -138,20 +159,20 @@ input[type="radio"]:checked + label span.radio::after {
 
 #bottom_div_left {
 	width: 49%;
-	height:100%;
-	float:left;
+	height: 100%;
+	float: left;
 }
 
 #bottom_div_right {
 	float: right;
 	width: 49%;
-	height:100%;
+	height: 100%;
 }
 
 #bottom_bar_chart {
-	width:90%;
+	width: 90%;
 	height: 100%;
-	float:left;
+	float: left;
 }
 
 #bottom_dropdown {
@@ -166,7 +187,7 @@ input[type="radio"]:checked + label span.radio::after {
 	font-size: 11px;
 }
 
-#maxDate,#minDate {
+#maxDate, #minDate {
 	font-size: 11px;
 }
 
@@ -218,38 +239,34 @@ svg#bottom_bar_chart_svg {
 	pointer-events: all;
 }
 
-
-
 svg {
-  font: 10px sans-serif;
+	font: 10px sans-serif;
 }
 
 .background path {
-  fill: none;
-  stroke: #ddd;
-  shape-rendering: crispEdges;
+	fill: none;
+	stroke: #ddd;
+	shape-rendering: crispEdges;
 }
 
 .foreground path {
-  fill: none;
-  stroke: steelblue;
+	fill: none;
+	stroke: steelblue;
 }
 
 .brush .extent {
-  fill-opacity: .3;
-  stroke: #fff;
-  shape-rendering: crispEdges;
+	fill-opacity: .3;
+	stroke: #fff;
+	shape-rendering: crispEdges;
 }
 
-.axis line,
-.axis path {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
+.axis line, .axis path {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
 }
 
 .axis text {
-  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
-  cursor: move;
+	text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+	cursor: move;
 }
-

@@ -1,5 +1,4 @@
-
-var selectedOpt=document.querySelector('input[name="group1"]:checked').value;
+var selectedOpt = document.querySelector('input[name="group1"]:checked').value;
 var radios = document.querySelectorAll('input[name="group1"]');
 
 function changeHandler(event) {
@@ -41,28 +40,28 @@ function obtain_color(d){
 		return "white";
 	}
 	switch(selectedOpt) {
-	case "deaths":
+	case "Deaths":
 		c=d3.scaleLinear().domain([0,3]).range([0,1]);
 		return heatmapColour(c(data["Numero de morts"]));	
 		break;
-	case "minorInjuries":
+	case "Minor injuries":
 		c=d3.scaleLinear().domain([0,11]).range([0,1]);
 		return heatmapColour(c(data["Numero de lesionats lleus"]));
 		break;
-	case "seriousInjuries":
+	case "Serious injuries":
 		c=d3.scaleLinear().domain([0,3]).range([0,1]);
 		return heatmapColour(c(data["Numero de lesionats greus"]));
-	case "neighborhood":
+	case "Neighborhood":
 		c=d3.scaleOrdinal().domain(codiBarris).range(colorsNeihgborhoods);
 		return c(data["Codi districte"]);
 		break;
-	case "weekDay":
+	case "Week day":
 		c=d3.scaleOrdinal().domain(filter_values_opcions[0]).range(colorsWeekdays);
 		return c(data["Descripcio dia setmana"]);
-	case "dayPart":
+	case "Day part":
 		c=d3.scaleOrdinal().domain(filter_values_opcions[1]).range(colorsDayPart);
 		return c(data["Descripcio torn"]);
-	case "pedestrianCause":
+	case "Pedestrian cause":
 		c=d3.scaleOrdinal().domain(filter_values_opcions[3]).range(colorsPedestrianCause);
 		return c(data["Descripcio causa vianant"]);
 	default:
