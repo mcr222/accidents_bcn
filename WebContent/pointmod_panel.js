@@ -1,14 +1,20 @@
-var selectedOpt = document.querySelector('input[name="group1"]:checked').value;
-var radios = document.querySelectorAll('input[name="group1"]');
+var color_options = document.getElementById("paint_color_options");
+var selectedOpt="Week day";
 
-function changeHandler(event) {
-	selectedOpt=this.value;
+function selectedPaintColor() {
+	selectedOpt = color_options.value;
 	paint_points_in_map();
+	paint_legend();
 }
 
-Array.prototype.forEach.call(radios, function(radio) {
-	radio.addEventListener('change', changeHandler);
-});
+color_options.addEventListener("change", selectedPaintColor);
+var option;
+for(var i=0;i<filter_variable_options.length;++i) {
+	option = document.createElement("option");
+	option.value = filter_variable_options[i];
+	option.text = filter_variable_options[i];
+	color_options.add(option);
+}
 
 function obtain_values(d){
 	var data = d.value;
@@ -16,6 +22,11 @@ function obtain_values(d){
 		data = d;
 	}
 	return data;
+}
+
+function obtain_size(d){
+	//TODO: finish this
+	return 2.5;
 }
 
 var colorsWeekdays=["red", "white", "blue", "green", "yellow", "brown", "orange"];
@@ -52,8 +63,8 @@ function obtain_color(d){
 		c=d3.scaleLinear().domain([0,3]).range([0,1]);
 		return heatmapColour(c(data["Numero de lesionats greus"]));
 	case "Neighborhood":
-		c=d3.scaleOrdinal().domain(codiBarris).range(colorsNeihgborhoods);
-		return c(data["Codi districte"]);
+		c=d3.scaleOrdinal().domain(filter_values_opcions[2]).range(colorsNeihgborhoods);
+		return c(data["Nom districte"]);
 		break;
 	case "Week day":
 		c=d3.scaleOrdinal().domain(filter_values_opcions[0]).range(colorsWeekdays);

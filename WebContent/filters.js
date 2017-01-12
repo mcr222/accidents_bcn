@@ -31,7 +31,7 @@ function translate(str_catalan) {
 
 var filter_values_options = [["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
             ["Morning","Afternoon","Night"],
-            ['Gracia', 'Ciutat Vella' , 'Eixample' , 'Unknown' , 'Sant Andreu' , 'Sants-Montju\xefc' , 'Sant Marti' , 'Les Corts' , 'Horta-Guinardo' , 'Sarria-Sant Gervasi' , 'Nou Barris'],
+            ['Gracia', 'Ciutat Vella' , 'Eixample' , 'Unknown' , 'Sant Andreu' , 'Sants-Montjuic' , 'Sant Marti' , 'Les Corts' , 'Horta-Guinardo' , 'Sarria-Sant Gervasi' , 'Nou Barris'],
             ['Walking on the carriageway', 'Disobey other traffic signs', 'Not pedestrian fault', 'Disobey traffic light', 'Crossing outside zebra crossing', 'Others'],
             ['0','1','3'],
             ['0','1','2','3','4','5','6','7','8','9','11'],
@@ -39,7 +39,7 @@ var filter_values_options = [["Monday","Tuesday","Wednesday","Thursday","Friday"
 
 var filter_values_opcions = [["Dilluns","Dimarts","Dimecres","Dijous","Divendres","Dissabte","Diumenge"],
              ["Mati","Tarda","Nit"],
-             ['Gracia', 'Ciutat Vella' , 'Eixample' , 'Desconegut' , 'Sant Andreu' , 'Sants-Montju\xefc' , 'Sant Marti' , 'Les Corts' , 'Horta-Guinardo' , 'Sarria-Sant Gervasi' , 'Nou Barris'],
+             ['Gracia', 'Ciutat Vella' , 'Eixample' , 'Desconegut' , 'Sant Andreu' , 'Sants-Montjuic' , 'Sant Marti' , 'Les Corts' , 'Horta-Guinardo' , 'Sarria-Sant Gervasi' , 'Nou Barris'],
              ['Transitar a peu per la cal\xe7ada', 'Desobeir altres senyals', 'No es causa del  vianant', 'Desobeir el senyal del semafor', 'Creuar per fora pas de vianants', 'Altres'],
              ['0','1','3'],
              ['0','1','2','3','4','5','6','7','8','9','11'],
