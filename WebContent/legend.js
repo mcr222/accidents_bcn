@@ -1,30 +1,26 @@
 
-map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
-function changeHandler(event) {
-	selectedOpt=document.querySelector('input[name="group1"]:checked').value;
-	paint_legend();
-}
-
-Array.prototype.forEach.call(radios, function(radio) {
-	radio.addEventListener('change', changeHandler);
-});
 function cleanValues() {
 	while (legend.firstChild) {
 		legend.removeChild(legend.firstChild);
 	}
 }
-function paint_legend(d){
-	cleanValues()
+
+function paint_legend(){
+	cleanValues();
 	var marker;
 	var legend = document.getElementById('legend');
-	var selectedVar;
-	for(var i=0;i<filter_variable_options.length;++i) {
-		selectedVar=filter_variable_options[i];
-		if (selectedVar==selectedOpt){
-			for (val in filter_values_options[i]){
-				var div = document.createElement('div');
-				div.innerHTML = filter_values_options[i][val];
-				legend.appendChild(div);
+	var idx = filter_variable_options.indexOf(selectedOpt);
+	for (val in filter_values_options[idx]){
+		var div = document.createElement('div');
+		var color_div = document.createElement('div');
+		var d = {};
+		d[filter_variable_opcions[idx]] = filter_values_opcions[idx][val];
+		
+		color_div.style.backgroundColor = obtain_color(d);
+		color_div.className = "legend_color";
+		div.innerHTML = filter_values_options[idx][val];
+		div.appendChild(color_div);
+		legend.appendChild(div);
 //				d3.select("div")
 //				.append("svg")
 //				.attr("width", 50)
@@ -33,11 +29,12 @@ function paint_legend(d){
 //				.attr("r", 2.5);
 //				.style("fill", obtain_color);
 
-			}
-		}
 	}
 }
 paint_legend();
+map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+
+
 //}
 
 

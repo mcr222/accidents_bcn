@@ -42,21 +42,20 @@ function paint_points_in_map() {
 	
 	      // Add a circle.
 	      marker.append("circle")
-	          .attr("r", 2.5)
 	          .attr("cx", padding)
 	          .attr("cy", padding)
-	          .style("fill", obtain_color);
+	          .style("fill", obtain_color)
+	          .attr("r", obtain_size);
 	          
 	      
-	     
-	/*
+	    
 	      // Add a label.
-	      marker.append("text")
+	      marker.append("svg:title")
 	          .attr("x", padding+10  )
 	          .attr("y", padding )
 	          .attr("dy", ".31em")
-	          .text(function(d) { return d.key; });
-	*/		
+	          .text(function(d) { return "aaaaa"; });
+		
 	      function transform(d) {
 	    	if(filter_data_row(d)) {	    		
 		        d = new google.maps.LatLng(d.value.Lat,d.value.Long);
@@ -73,7 +72,8 @@ function paint_points_in_map() {
 	  overlay.onRemove = function(){
 		  d3.selectAll(".marker").remove();
 		};
-	  
+	
+		
 	  // Bind our overlay to the map…
 	  overlay.setMap(map);
 	});
