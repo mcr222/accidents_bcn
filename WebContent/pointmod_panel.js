@@ -25,8 +25,12 @@ function obtain_values(d){
 }
 
 function obtain_size(d){
-	//TODO: finish this
-	return 2.5;
+	var data=obtain_values(d);
+	var score = (data["Numero de lesionats lleus"]/11+2*data["Numero de lesionats greus"]/3+4*data["Numero de morts"]/3
+			+data["Numero de vehicles implicats"]/12)/4;
+	//console.log(score);
+	//return 2.5;
+	return 2+5*score;
 }
 
 var colorsWeekdays=["red", "white", "blue", "green", "yellow", "brown", "orange"];

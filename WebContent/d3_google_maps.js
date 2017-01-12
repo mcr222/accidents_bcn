@@ -31,7 +31,7 @@ function paint_points_in_map() {
 	    // We could use a single SVG, but what size would it have?
 	    overlay.draw = function() {
 	      var projection = this.getProjection(),
-	          padding = 3;
+	          padding = 15;
 	
 	      var marker = layer.selectAll("svg")
 	          .data(d3.entries(data))
@@ -50,19 +50,19 @@ function paint_points_in_map() {
 	      
 	    
 	      // Add a label.
-	      marker.append("svg:title")
+	      /*marker.append("svg:title")
 	          .attr("x", padding+10  )
 	          .attr("y", padding )
 	          .attr("dy", ".31em")
-	          .text(function(d) { return "aaaaa"; });
+	          .text(function(d) { return "aaaaa"; });*/
 		
 	      function transform(d) {
 	    	if(filter_data_row(d)) {	    		
 		        d = new google.maps.LatLng(d.value.Lat,d.value.Long);
 		        d = projection.fromLatLngToDivPixel(d);
 		        return d3.select(this)
-		            .style("left", (d.x) + "px")//-28 , +48
-		            .style("top", (d.y ) + "px");
+		            .style("left", (d.x-padding) + "px")//-28 , +48
+		            .style("top", (d.y-padding) + "px");
 	    	}
 	    	return null;
 	      }
