@@ -32,7 +32,7 @@ function paint_legend(){
 	}
 }
 paint_legend();
-map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+map.controls[google.maps.ControlPosition.RIGHT_TOP].push(legend);
 
 
 //}

@@ -109,10 +109,6 @@ tr:nth-child(even) {
 	padding-left: 65px;
 }
 
-.section input[type="radio"] {
-	display: none;
-}
-
 .container {
 	margin-bottom: 10px;
 }
@@ -128,33 +124,6 @@ tr:nth-child(even) {
 	top: 0;
 	bottom: 0;
 	margin: auto;
-}
-
-/* Radio buttons */
-.container span.radio:hover {
-	cursor: pointer;
-}
-
-.container span.radio::before {
-	left: -52px;
-	width: 45px;
-	height: 25px;
-	background-color: #A8AAC1;
-	border-radius: 50px;
-}
-
-.container span.radio::after {
-	left: -49px;
-	width: 17px;
-	height: 17px;
-	border-radius: 10px;
-	background-color: #6C788A;
-	transition: left .25s, background-color .25s;
-}
-
-input[type="radio"]:checked+label span.radio::after {
-	left: -27px;
-	background-color: #EBFF43;
 }
 
 #bottom_div {
@@ -215,7 +184,7 @@ svg#bottom_bar_chart_svg {
 }
 
 .stations circle {
-	fill: red;
+	fill: black;
 	stroke: black;
 	stroke-width: 0.5px;
 }
