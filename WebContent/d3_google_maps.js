@@ -16,10 +16,16 @@ var map = new google.maps.Map(d3.select("#main_map").node(), {
 //map.setMapTypeId('styled_map');
 var overlay;
 var markers = [];
-
+var totalVal = {"Numero accidents":0,"Numero de morts":0,"Numero de lesionats lleus":0, 
+        "Numero de lesionats greus":0, "Numero de vehicles implicats":0};
+var total_value_text = document.getElementById("totalValue");
+	
 //Load the station data. When the data comes back, create an overlay.
 function paint_points_in_map() {
 	console.log("painting google maps");
+	totalVal = {"Numero accidents":0,"Numero de morts":0,"Numero de lesionats lleus":0, 
+	        "Numero de lesionats greus":0, "Numero de vehicles implicats":0};
+	total_value_text.innerHTML = 0;
 	if(overlay!=null) {
 		overlay.setMap(null);
 	}
@@ -67,7 +73,14 @@ function paint_points_in_map() {
 	          .attr("dy", ".31em")
 	          .text(function(d) { return "aaaaa"; });*/
 
-				function transform(d) {    		
+				function transform(d) {  
+					if(dropdown_menu_selected=="Numero accidents") {
+			    		  totalVal["Numero accidents"] += 1;	
+					  } else if(!isNaN(d.value[dropdown_menu_selected])) {
+						  totalVal[dropdown_menu_selected] += parseInt(d.value[dropdown_menu_selected]);
+					  }
+			  		total_value_text.innerHTML = totalVal[dropdown_menu_selected];
+					
 					var size = obtain_size(d);
 					d = new google.maps.LatLng(d.value.Lat,d.value.Long);
 					d = projection.fromLatLngToDivPixel(d);
