@@ -92,15 +92,18 @@ function addRow(variable, values) {
 		button_close.innerHTML = "x";
 		button_close.addEventListener("click",removeFilter);
 		var cell0 = row.insertCell(0);
-		cell0.innerHTML = variable;
+		cell0.innerHTML = translate(variable);
 		var cell1 = row.insertCell(1);
-		cell1.innerHTML = values;
+		trans_vals=[];
+		for(var j=0;j<values.length;++j) {
+			trans_vals[j]=(translate(values[j]));
+		}
+		cell1.innerHTML = trans_vals;
 		var cell2 = row.insertCell(2);
 		cell2.appendChild(button_close);
 	}
 	console.log(filter_table);
-	update_charts();
-	paint_bottom_bar_chart();
+	paint_points_in_map();
 }
 
 function removeFilter() {
@@ -108,9 +111,7 @@ function removeFilter() {
     row.parentNode.removeChild(row);
     delete filter_table[this.id];
 	console.log(filter_table);
-	update_charts();
-	paint_bottom_bar_chart();
-	
+	paint_points_in_map();
 }
 
 
