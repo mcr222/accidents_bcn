@@ -2,6 +2,23 @@ var filtering_functions_array = [time_filter,discrete_filters];
 //filters return true if data row must be kept
 var number_filtering_functions = filtering_functions_array.length;
 
+function update_charts(){
+	paint_parallel_coord_chart();
+	paint_points_in_map();
+}
+
+function filter_data_row_no_time(d) {
+	//return true if data row d does not want to be filtered
+	for (var i=1;i<number_filtering_functions;i++) {
+		//if any of the filters is false then row is filtered
+		if(!filtering_functions_array[i](d)) {
+			return false;
+		}
+	}
+	//if all filters are true then data row is not filtered
+	return true;
+}
+
 function filter_data_row(d) {
 	//return true if data row d does not want to be filtered
 	for (var i=0;i<number_filtering_functions;i++) {

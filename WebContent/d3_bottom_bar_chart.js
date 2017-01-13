@@ -53,7 +53,7 @@ function paint_bottom_bar_chart(){
 	  if (error) throw error;
 	
 	//Process the data to build the stacked bar data
-	  data.forEach(function(d) {
+	  data.filter(filter_data_row_no_time).forEach(function(d) {
 		  dataDateTime=obtain_Date(d).getTime();
 		  for(var i = 0; i<dateBuckets.length; ++i){
 			  if(dateBuckets[i].date.getTime()>=dataDateTime) {
@@ -122,6 +122,6 @@ function rangeUpdate(date1,date2){
 		  window.clearTimeout(timer);
 	  }
 
-	  timer = window.setTimeout(paint_points_in_map,500);
+	  timer = window.setTimeout(update_charts,700);
 }
 
