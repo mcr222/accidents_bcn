@@ -171,7 +171,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S002347,1,Ciutat Vella,2,el Barri Gotic,701266,Litoral (Llobregat),1020000,Divendres,Dv,Laboral,2015,3,Març,27,15,Tarda,No es causa del  vianant,0,1,0,2,4581498.83,431680.73,"2.181821299,41.380265676",
 2015S009255,1,Ciutat Vella,2,el Barri Gotic,701266,Litoral (Llobregat),1080000,Dissabte,Ds,Laboral,2015,12,Desembre,5,6,Mati,No es causa del  vianant,0,0,0,2,4580981.67,431372.26,"2.178191152,41.375581488",
 2015S007968,1,Ciutat Vella,2,el Barri Gotic,701497,B-10 (Llobregat),1030000,Divendres,Dv,Laboral,2015,10,Octubre,23,13,Mati,No es causa del  vianant,0,2,0,3,4581413.57,431627.70,"2.181196781,41.379493255",
-2015S001334,1,Ciutat Vella,2,el Barri Gotic,122904,Ferran,0030 0030,Divendres,Dv,Laboral,2015,2,Febrer,20,20,Tarda,Transitar a peu per la calçada,0,1,0,1,4581634.62,431167.91,"2.175673477,41.381444967",
+2015S001334,1,Ciutat Vella,2,el Barri Gotic,122904,Ferran,0030 0030,Divendres,Dv,Laboral,2015,2,Febrer,20,20,Tarda,Transitar a peu per la calsada,0,1,0,1,4581634.62,431167.91,"2.175673477,41.381444967",
 2015S005562,1,Ciutat Vella,2,el Barri Gotic,45508,Boqueria,0003 0007,Dissabte,Ds,Laboral,2015,7,Juliol,18,23,Nit,No es causa del  vianant,0,1,0,2,4581629.03,430997.36,"2.173634612,41.381380002",
 2015S001045,1,Ciutat Vella,2,el Barri Gotic,45508,Boqueria,0006 0006,Dimarts,Dm,Laboral,2015,2,Febrer,10,14,Tarda,No es causa del  vianant,0,1,0,1,4581624.06,431006.27,"2.173741727,41.381336003",
 2015S004979,1,Ciutat Vella,2,el Barri Gotic,82901,Colom,0017 0017,Diumenge,Dg,Laboral,2015,6,Juny,28,11,Mati,No es causa del  vianant,0,1,0,2,4581339.11,431511.95,"2.179821057,41.378812763",
@@ -233,7 +233,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S007338,2,Eixample,10,Sant Antoni,361406,Viladomat,0111 0113,Dimecres,Dc,Laboral,2015,9,Setembre,30,19,Tarda,No es causa del  vianant,0,1,0,2,4581480.53,429588.44,"2.156803547,41.379920375",
 2015S003702,2,Eixample,10,Sant Antoni,323203,Sepulveda,0097 0097,Dijous,Dj,Laboral,2015,5,Maig,14,18,Tarda,No es causa del  vianant,0,2,0,2,4581473.52,429678.81,"2.157885010,41.379865146",
 2015S004193,2,Eixample,10,Sant Antoni,323203,Sepulveda,0097 0097,Dissabte,Ds,Laboral,2015,5,Maig,30,20,Tarda,No es causa del  vianant,0,1,0,2,4581473.52,429678.81,"2.157885010,41.379865146",
-2015S006137,2,Eixample,10,Sant Antoni,349706,Comte d Urgell,0053 0053,Dimarts,Dm,Laboral,2015,8,Agost,11,8,Mati,Transitar a peu per la calçada,0,1,0,1,4581662.28,429777.79,"2.159046732,41.381573897",
+2015S006137,2,Eixample,10,Sant Antoni,349706,Comte d Urgell,0053 0053,Dimarts,Dm,Laboral,2015,8,Agost,11,8,Mati,Transitar a peu per la calsada,0,1,0,1,4581662.28,429777.79,"2.159046732,41.381573897",
 2015S001084,2,Eixample,9,la Nova Esquerra de l Eixample,361406,Viladomat,0257 0257,Dijous,Dj,Laboral,2015,2,Febrer,12,9,Mati,Desobeir el senyal del semafor,0,2,0,1,4582229.02,428854.85,"2.147943326,41.386597200",
 2015S006187,2,Eixample,10,Sant Antoni,87009,Comte Borrell,0004 0006,Dijous,Dj,Laboral,2015,8,Agost,13,12,Mati,No es causa del  vianant,0,1,0,2,4581001.61,430272.74,"2.165041579,41.375666510",
 2015S001933,2,Eixample,10,Sant Antoni,246000,Parlament,0005 0005,Dijous,Dj,Laboral,2015,3,Març,12,12,Mati,No es causa del  vianant,0,0,0,1,4580997.40,429954.57,"2.161237617,41.375600946",
@@ -530,7 +530,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S003382,2,Eixample,7,la Dreta de l Eixample,89004,Consell de Cent,0341 0341,Dilluns,Dl,Laboral,2015,5,Maig,4,18,Tarda,No es causa del  vianant,0,1,0,2,4582659.72,430274.11,2.164867050,41.390600718
 2015S003524,2,Eixample,7,la Dreta de l Eixample,350308,Valencia,0227 0227,Divendres,Dv,Laboral,2015,5,Maig,8,17,Tarda,Desobeir el senyal del semafor,0,2,0,1,4582733.70,429968.67,2.161205423,41.391240481
 2015S003121,2,Eixample,7,la Dreta de l Eixample,350308,Valencia,0244 0244,Divendres,Dv,Laboral,2015,4,Abril,24,16,Tarda,No es causa del  vianant,0,1,0,2,4582700.05,429964.46,2.161158964,41.390937039
-2015S005407,2,Eixample,7,la Dreta de l Eixample,350308,Valencia,0252 0252,Dilluns,Dl,Laboral,2015,7,Juliol,13,18,Tarda,Transitar a peu per la calçada,0,1,0,1,4582749.26,430015.38,2.161762282,41.391384692
+2015S005407,2,Eixample,7,la Dreta de l Eixample,350308,Valencia,0252 0252,Dilluns,Dl,Laboral,2015,7,Juliol,13,18,Tarda,Transitar a peu per la calsada,0,1,0,1,4582749.26,430015.38,2.161762282,41.391384692
 2015S001308,2,Eixample,6,la Sagrada Familia,191204,Mallorca,0460 0460,Divendres,Dv,Laboral,2015,2,Febrer,20,6,Mati,No es causa del  vianant,0,1,0,1,4584303.14,431411.59,2.178285102,41.405500370
 2015S007379,2,Eixample,7,la Dreta de l Eixample,100800,Diputacio,0234 0236,Divendres,Dv,Laboral,2015,10,Octubre,2,11,Mati,No es causa del  vianant,0,1,0,2,4582407.43,430239.63,2.164483740,41.388325431
 2015S003790,2,Eixample,7,la Dreta de l Eixample,100800,Diputacio,0257 0257,Dissabte,Ds,Laboral,2015,5,Maig,16,17,Tarda,No es causa del  vianant,0,1,0,2,4582569.40,430373.59,2.166067222,41.389795857
@@ -579,8 +579,8 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S009599,2,Eixample,6,la Sagrada Familia,197302,Marina,0257 0259,Dijous,Dj,Laboral,2015,12,Desembre,17,8,Mati,No es causa del  vianant,0,2,0,2,4584213.00,431055.68,2.174037699,41.404658045
 2015S003239,2,Eixample,6,la Sagrada Familia,178308,Lepant,0355 0355,Dimecres,Dc,Laboral,2015,4,Abril,29,7,Mati,No es causa del  vianant,0,1,0,2,4584639.19,430810.54,2.171056430,41.408475526
 2015S003955,2,Eixample,6,la Sagrada Familia,191204,Mallorca,0410 0414,Divendres,Dv,Laboral,2015,5,Maig,22,13,Mati,No es causa del  vianant,0,0,0,1,4584041.19,431143.66,2.175109727,41.403118152
-2015S004819,2,Eixample,6,la Sagrada Familia,191204,Mallorca,0416 0416,Dilluns,Dl,Laboral,2015,6,Juny,22,11,Mati,Transitar a peu per la calçada,0,1,0,1,4584054.14,431156.87,2.175266276,41.403235920
-2015S009563,2,Eixample,6,la Sagrada Familia,297001,Sant Antoni Maria Claret,0166 0166,Dimecres,Dc,Laboral,2015,12,Desembre,16,8,Mati,Transitar a peu per la calçada,0,1,0,1,4584700.85,430860.36,2.171645394,41.409035166
+2015S004819,2,Eixample,6,la Sagrada Familia,191204,Mallorca,0416 0416,Dilluns,Dl,Laboral,2015,6,Juny,22,11,Mati,Transitar a peu per la calsada,0,1,0,1,4584054.14,431156.87,2.175266276,41.403235920
+2015S009563,2,Eixample,6,la Sagrada Familia,297001,Sant Antoni Maria Claret,0166 0166,Dimecres,Dc,Laboral,2015,12,Desembre,16,8,Mati,Transitar a peu per la calsada,0,1,0,1,4584700.85,430860.36,2.171645394,41.409035166
 2015S000003,2,Eixample,6,la Sagrada Familia,197302,Marina,0233 0233,Dijous,Dj,Laboral,2015,1,Gener,1,8,Mati,Creuar per fora pas de vianants,0,1,0,1,4583970.01,431290.30,2.176871971,41.402489608
 2015S009919,2,Eixample,6,la Sagrada Familia,142300,Gaudi,0024 0024,Dimarts,Dm,Laboral,2015,12,Desembre,29,0,Nit,No es causa del  vianant,0,3,0,2,4584383.87,431112.75,2.174700947,41.406201912
 2015S003880,2,Eixample,6,la Sagrada Familia,178308,Lepant,0298 0298,Dimecres,Dc,Laboral,2015,5,Maig,20,10,Mati,No es causa del  vianant,0,1,0,2,4584323.04,431157.96,2.175248714,41.405657911
@@ -1453,7 +1453,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S009281,1,Ciutat Vella,1,el Raval,16408,angels,0020 0022,Diumenge,Dg,Laboral,2015,12,Desembre,6,23,Nit,No es causa del  vianant,0,3,0,2,4581785.48,430517.80,2.167881915,41.382747806
 2015S004970,1,Ciutat Vella,1,el Raval,51307,Bonsucces,0011 0011,Dissabte,Ds,Laboral,2015,6,Juny,27,17,Tarda,No es causa del  vianant,0,1,0,1,4581945.22,430701.34,2.170058517,41.384202376
 2015S001731,1,Ciutat Vella,1,el Raval,67307,Carme,0004 0008,Divendres,Dv,Laboral,2015,3,Març,6,8,Mati,No es causa del  vianant,0,1,0,1,4581787.06,430790.59,2.171143922,41.382785562
-2015S007339,1,Ciutat Vella,1,el Raval,67307,Carme,0018 0018,Dimecres,Dc,Laboral,2015,9,Setembre,30,19,Tarda,Transitar a peu per la calçada,0,1,0,1,4581759.76,430754.06,2.170710196,41.382536534
+2015S007339,1,Ciutat Vella,1,el Raval,67307,Carme,0018 0018,Dimecres,Dc,Laboral,2015,9,Setembre,30,19,Tarda,Transitar a peu per la calsada,0,1,0,1,4581759.76,430754.06,2.170710196,41.382536534
 2015S003680,1,Ciutat Vella,1,el Raval,67307,Carme,0036 0036,Dijous,Dj,Laboral,2015,5,Maig,14,10,Mati,No es causa del  vianant,0,1,0,2,4581713.30,430684.84,2.169887741,41.382112119
 2015S003681,1,Ciutat Vella,1,el Raval,335803,Tigre,0000 0000,Dijous,Dj,Laboral,2015,5,Maig,14,10,Mati,No es causa del  vianant,0,1,0,2,4581768.73,430226.32,2.164398155,41.382571704
 2015S003083,1,Ciutat Vella,1,el Raval,250904,Pelai,0036 0036,Dijous,Dj,Laboral,2015,4,Abril,23,19,Tarda,No es causa del  vianant,0,1,0,3,4582101.25,430471.03,2.167286355,41.385587808
@@ -1496,7 +1496,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S001970,1,Ciutat Vella,3,la Barceloneta,197903,Maritim de la Barceloneta,0028 0028,Diumenge,Dg,Laboral,2015,3,Març,15,1,Nit,No es causa del  vianant,0,1,0,1,4581839.64,432803.97,2.195215429,41.383429917
 2015S006100,1,Ciutat Vella,2,el Barri Gotic,177101,Laietana,0047 0047,Diumenge,Dg,Laboral,2015,8,Agost,9,6,Mati,No es causa del  vianant,0,1,0,3,4582234.02,431095.78,2.174742715,41.386837414
 2015S000589,1,Ciutat Vella,3,la Barceloneta,211006,Miquel Boera,0002 0002,Dissabte,Ds,Laboral,2015,1,Gener,24,15,Tarda,No es causa del  vianant,0,2,0,1,4581513.37,432525.77,2.191924843,41.380467985
-2015S003488,1,Ciutat Vella,3,la Barceloneta,102102,Doctor Gine i Partagas,0078 0078,Dijous,Dj,Laboral,2015,5,Maig,7,21,Tarda,Transitar a peu per la calçada,0,1,0,1,4581339.53,432466.01,2.191229601,41.378897233
+2015S003488,1,Ciutat Vella,3,la Barceloneta,102102,Doctor Gine i Partagas,0078 0078,Dijous,Dj,Laboral,2015,5,Maig,7,21,Tarda,Transitar a peu per la calsada,0,1,0,1,4581339.53,432466.01,2.191229601,41.378897233
 2015S009829,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,700813,Doctor Aiguader,0007 0007,Dijous,Dj,Laboral,2015,12,Desembre,24,21,Tarda,No es causa del  vianant,0,1,0,2,4581756.05,432053.73,2.186252848,41.382613994
 2015S008426,1,Ciutat Vella,3,la Barceloneta,701497,B-10 (Llobregat),950000,Diumenge,Dg,Laboral,2015,11,Novembre,8,23,Nit,No es causa del  vianant,0,1,0,2,4581857.73,432275.46,2.188893065,41.383548507
 2015S003050,1,Ciutat Vella,3,la Barceloneta,701498,B-10 (Besos),950000,Dimecres,Dc,Laboral,2015,4,Abril,22,21,Tarda,No es causa del  vianant,0,1,0,2,4581840.35,432285.57,2.189015912,41.383392821
@@ -1511,7 +1511,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S005718,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,19508,Volta d en Colomines,0002 0002,Divendres,Dv,Laboral,2015,7,Juliol,24,18,Tarda,No es causa del  vianant,0,2,0,2,4581978.44,431453.25,2.179046767,41.384566034
 2015S005731,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,19508,Volta d en Colomines,0002 0002,Divendres,Dv,Laboral,2015,7,Juliol,24,21,Tarda,No es causa del  vianant,0,1,0,2,4581978.44,431453.25,2.179046767,41.384566034
 2015S000139,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,134506,Freixures,0007 0007,Dijous,Dj,Laboral,2015,1,Gener,8,12,Mati,No es causa del  vianant,0,0,0,1,4582115.18,431389.42,2.178267932,41.385792168
-2015S008125,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,266904,Princesa,0048 0048,Dijous,Dj,Laboral,2015,10,Octubre,29,12,Mati,Transitar a peu per la calçada,0,1,0,1,4582220.44,431738.27,2.182428031,41.386769911
+2015S008125,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,266904,Princesa,0048 0048,Dijous,Dj,Laboral,2015,10,Octubre,29,12,Mati,Transitar a peu per la calsada,0,1,0,1,4582220.44,431738.27,2.182428031,41.386769911
 2015S001205,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,291708,Sabateret,0002 0002,Dimarts,Dm,Laboral,2015,2,Febrer,17,8,Mati,No es causa del  vianant,0,1,0,2,4582087.23,431710.75,2.182113933,41.385567788
 2015S005097,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,359109,Lluis Companys,0008 0008,Dijous,Dj,Laboral,2015,7,Juliol,2,21,Tarda,No es causa del  vianant,0,1,0,2,4582555.38,431809.20,2.183238584,41.389792644
 2015S002174,2,Eixample,10,Sant Antoni,169409,Corts Catalanes,0384 0390,Diumenge,Dg,Laboral,2015,3,Març,22,11,Mati,No es causa del  vianant,0,1,0,2,4581025.21,429061.54,2.150556181,41.375773152
@@ -1525,7 +1525,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S002748,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,181700,Lluis el Piados,0002 0002,Dilluns,Dl,Laboral,2015,4,Abril,13,21,Tarda,No es causa del  vianant,0,1,0,2,4582576.89,431450.12,2.178941578,41.389955838
 2015S000190,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,188505,Lluis Millet,0000 0000,Dissabte,Ds,Laboral,2015,1,Gener,10,12,Mati,No es causa del  vianant,0,1,0,1,4582261.26,431123.79,2.175074598,41.387085157
 2015S009342,2,Eixample,10,Sant Antoni,110803,Entença,0024 0026,Dimecres,Dc,Laboral,2015,12,Desembre,9,16,Tarda,No es causa del  vianant,0,1,0,1,4581111.76,429418.26,2.154811497,41.376584064
-2015S005125,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,236903,Ortigosa,0008 0008,Divendres,Dv,Laboral,2015,7,Juliol,3,16,Tarda,Transitar a peu per la calçada,0,1,0,1,4582387.14,431122.21,2.175041381,41.388218786
+2015S005125,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,236903,Ortigosa,0008 0008,Divendres,Dv,Laboral,2015,7,Juliol,3,16,Tarda,Transitar a peu per la calsada,0,1,0,1,4582387.14,431122.21,2.175041381,41.388218786
 2015S006154,1,Ciutat Vella,4,Sant Pere. Santa Caterina i la Ribera,236903,Ortigosa,0012 0012,Dimarts,Dm,Laboral,2015,8,Agost,11,19,Tarda,No es causa del  vianant,0,0,0,1,4582427.31,431163.94,2.175535889,41.388584160
 2015S004328,2,Eixample,10,Sant Antoni,169409,Corts Catalanes,0434 0434,Divendres,Dv,Laboral,2015,6,Juny,5,11,Mati,Desobeir el senyal del semafor,0,1,1,1,4581276.62,429318.64,2.153601063,41.378060156
 2015S004829,2,Eixample,10,Sant Antoni,285807,Rocafort,0065 0065,Dilluns,Dl,Laboral,2015,6,Juny,22,15,Tarda,No es causa del  vianant,0,1,0,2,4581268.15,429421.46,2.154831540,41.377992899
@@ -1717,7 +1717,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S006739,2,Eixample,7,la Dreta de l Eixample,32700,Balmes,0036 0042,Dilluns,Dl,Laboral,2015,9,Setembre,7,14,Tarda,No es causa del  vianant,0,0,0,2,4582445.16,430172.19,2.163672832,41.388659398
 2015S003109,2,Eixample,7,la Dreta de l Eixample,31300,Bailen,0084 0084,Divendres,Dv,Laboral,2015,4,Abril,24,9,Mati,No es causa del  vianant,0,1,0,1,4583275.48,430855.21,2.171746688,41.396196874
 2015S001726,2,Eixample,7,la Dreta de l Eixample,49509,Bruc,0033 0033,Divendres,Dv,Laboral,2015,3,Març,6,8,Mati,No es causa del  vianant,0,1,0,2,4582763.50,430950.98,2.172950609,41.391593860
-2015S007875,2,Eixample,7,la Dreta de l Eixample,169409,Corts Catalanes,0646 0646,Dimarts,Dm,Laboral,2015,10,Octubre,20,15,Tarda,Transitar a peu per la calçada,0,1,0,1,4582613.30,430683.84,2.169772752,41.390218063
+2015S007875,2,Eixample,7,la Dreta de l Eixample,169409,Corts Catalanes,0646 0646,Dimarts,Dm,Laboral,2015,10,Octubre,20,15,Tarda,Transitar a peu per la calsada,0,1,0,1,4582613.30,430683.84,2.169772752,41.390218063
 2015S005112,2,Eixample,7,la Dreta de l Eixample,176801,Roger de Lluria,0001 0001,Divendres,Dv,Laboral,2015,7,Juliol,3,13,Mati,No es causa del  vianant,0,1,0,2,4582569.78,430953.78,2.173006193,41.389849322
 2015S009768,2,Eixample,7,la Dreta de l Eixample,176801,Roger de Lluria,0003 0003,Diumenge,Dg,Laboral,2015,12,Desembre,20,21,Tarda,No es causa del  vianant,0,1,0,3,4582569.78,430953.78,2.173006193,41.389849322
 2015S000174,2,Eixample,7,la Dreta de l Eixample,176801,Roger de Lluria,0003 0003,Divendres,Dv,Laboral,2015,1,Gener,9,12,Mati,No es causa del  vianant,0,1,0,2,4582569.78,430953.78,2.173006193,41.389849322
@@ -1778,7 +1778,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S004518,2,Eixample,7,la Dreta de l Eixample,289105,Rossello,0224 0224,Dijous,Dj,Laboral,2015,6,Juny,11,19,Tarda,No es causa del  vianant,0,1,0,1,4583139.88,429839.01,2.159607591,41.394887502
 2015S007488,2,Eixample,6,la Sagrada Familia,238400,Padilla,0247 0247,Dimarts,Dm,Laboral,2015,10,Octubre,6,11,Mati,No es causa del  vianant,0,2,0,2,4584250.74,431373.59,2.177836461,41.405025175
 2015S003515,2,Eixample,7,la Dreta de l Eixample,148307,Gracia,0053 0053,Divendres,Dv,Laboral,2015,5,Maig,8,12,Mati,No es causa del  vianant,0,1,0,2,4582863.90,430204.60,2.164012167,41.392433670
-2015S007268,2,Eixample,7,la Dreta de l Eixample,148307,Gracia,0063 0063,Dilluns,Dl,Laboral,2015,9,Setembre,28,20,Tarda,Transitar a peu per la calçada,0,1,0,1,4582937.53,430140.14,2.163232704,41.393091231
+2015S007268,2,Eixample,7,la Dreta de l Eixample,148307,Gracia,0063 0063,Dilluns,Dl,Laboral,2015,9,Setembre,28,20,Tarda,Transitar a peu per la calsada,0,1,0,1,4582937.53,430140.14,2.163232704,41.393091231
 2015S008023,2,Eixample,7,la Dreta de l Eixample,148307,Gracia,0065 0065,Diumenge,Dg,Laboral,2015,10,Octubre,25,1,Nit,No es causa del  vianant,0,1,0,2,4582944.96,430133.41,2.163151352,41.393157566
 2015S003577,2,Eixample,6,la Sagrada Familia,73900,Castillejos,0187 0187,Diumenge,Dg,Laboral,2015,5,Maig,10,22,Nit,No es causa del  vianant,0,1,0,2,4584009.10,431792.37,2.182873455,41.402884456
 2015S000510,2,Eixample,6,la Sagrada Familia,350308,Valencia,0480I0480I,Dimecres,Dc,Laboral,2015,1,Gener,21,14,Tarda,No es causa del  vianant,0,2,0,2,4584100.21,431441.78,2.178669258,41.403675219
@@ -1913,7 +1913,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S006434,3,Sants-Montjuic,11,el Poble Sec,116402,Estadi,0053 0053,Dimecres,Dc,Laboral,2015,8,Agost,26,14,Tarda,No es causa del  vianant,0,1,0,1,4580023.17,429016.83,2.150138953,41.366744155
 2015S008828,3,Sants-Montjuic,11,el Poble Sec,116402,Estadi,0074 0074,Dilluns,Dl,Laboral,2015,11,Novembre,23,8,Mati,No es causa del  vianant,0,1,0,1,4580101.91,429799.40,2.159485953,41.367522008
 2015S006886,3,Sants-Montjuic,11,el Poble Sec,213409,Miramar,0002 0036,Diumenge,Dg,Laboral,2015,9,Setembre,13,23,Nit,No es causa del  vianant,0,4,0,2,4580173.18,430778.48,2.171183507,41.368248755
-2015S007860,3,Sants-Montjuic,11,el Poble Sec,288408,Roser,0091I0091I,Dilluns,Dl,Laboral,2015,10,Octubre,19,21,Tarda,Transitar a peu per la calçada,0,1,0,1,4580531.25,430338.48,2.165881731,41.371435810
+2015S007860,3,Sants-Montjuic,11,el Poble Sec,288408,Roser,0091I0091I,Dilluns,Dl,Laboral,2015,10,Octubre,19,21,Tarda,Transitar a peu per la calsada,0,1,0,1,4580531.25,430338.48,2.165881731,41.371435810
 2015S000100,3,Sants-Montjuic,12,la Marina del Prat Vermell,348500,Ulldecona,0000 0000,Dimarts,Dm,Laboral,2015,1,Gener,6,19,Tarda,No es causa del  vianant,0,1,0,1,4578426.45,428394.97,2.142892814,41.352307905
 2015S008645,3,Sants-Montjuic,12,la Marina del Prat Vermell,222206,Motors,0137X0137X,Dilluns,Dl,Laboral,2015,11,Novembre,16,18,Tarda,No es causa del  vianant,0,1,0,2,4578265.62,428534.40,2.144578363,41.350871749
 2015S001261,3,Sants-Montjuic,12,la Marina del Prat Vermell,369408,Zona Franca,0014 0014,Dijous,Dj,Laboral,2015,2,Febrer,19,8,Mati,No es causa del  vianant,0,1,0,2,4578435.98,428565.45,2.144929431,41.352408886
@@ -2222,7 +2222,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S001320,6,Gracia,28,Vallcarca i els Penitents,308403,Sant Onofre,0020 0020,Divendres,Dv,Laboral,2015,2,Febrer,20,15,Tarda,No es causa del  vianant,0,0,0,3,4585929.35,428080.20,2.138239227,41.419855672
 2015S008387,6,Gracia,28,Vallcarca i els Penitents,336500,Ticia,0044 0044,Divendres,Dv,Laboral,2015,11,Novembre,6,17,Tarda,No es causa del  vianant,0,1,0,2,4585699.01,428018.30,2.137526002,41.417775551
 2015S008628,6,Gracia,28,Vallcarca i els Penitents,34807,Baro de la Barre,0061 0061,Dilluns,Dl,Laboral,2015,11,Novembre,16,10,Mati,No es causa del  vianant,0,1,0,2,4585608.11,428387.92,2.141959249,41.416989896
-2015S006481,6,Gracia,30,la Salut,6109,Albigesos,0019B0019B,Divendres,Dv,Laboral,2015,8,Agost,28,13,Mati,Transitar a peu per la calçada,0,0,1,1,4584874.27,429086.18,2.150399865,41.410442441
+2015S006481,6,Gracia,30,la Salut,6109,Albigesos,0019B0019B,Divendres,Dv,Laboral,2015,8,Agost,28,13,Mati,Transitar a peu per la calsada,0,0,1,1,4584874.27,429086.18,2.150399865,41.410442441
 2015S005054,6,Gracia,30,la Salut,366002,Mare de Deu de la Salut,0031 0037,Dimecres,Dc,Laboral,2015,7,Juliol,1,7,Mati,No es causa del  vianant,0,1,0,2,4584926.99,429557.78,2.156035775,41.410958764
 2015S001452,6,Gracia,30,la Salut,229908,Mare de Deu del Coll,0002 0002,Dimecres,Dc,Laboral,2015,2,Febrer,25,9,Mati,No es causa del  vianant,0,1,0,2,4584612.09,429102.42,2.150624889,41.408082519
 2015S003080,6,Gracia,30,la Salut,229908,Mare de Deu del Coll,0002 0002,Dijous,Dj,Laboral,2015,4,Abril,23,17,Tarda,No es causa del  vianant,0,1,0,2,4584612.09,429102.42,2.150624889,41.408082519
@@ -2831,7 +2831,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S007064,2,Eixample,8,l Antiga Esquerra de l Eixample,89004,Consell de Cent,0254 0254,Diumenge,Dg,Laboral,2015,9,Setembre,20,13,Mati,No es causa del  vianant,0,1,0,2,4582316.20,429954.47,2.161083894,41.387478956
 2015S007853,2,Eixample,8,l Antiga Esquerra de l Eixample,89004,Consell de Cent,0254 0254,Dilluns,Dl,Laboral,2015,10,Octubre,19,20,Tarda,No es causa del  vianant,0,1,0,3,4582316.20,429954.47,2.161083894,41.387478956
 2015S008273,2,Eixample,8,l Antiga Esquerra de l Eixample,70607,Casanova,0094 0094,Dimarts,Dm,Laboral,2015,11,Novembre,3,12,Mati,No es causa del  vianant,0,1,0,3,4582259.71,429605.08,2.156911955,41.386939653
-2015S002680,2,Eixample,8,l Antiga Esquerra de l Eixample,110304,Enric Granados,0147 0147,Divendres,Dv,Laboral,2015,4,Abril,10,21,Tarda,Transitar a peu per la calçada,0,1,0,1,4583085.57,429329.56,2.153520511,41.394353718
+2015S002680,2,Eixample,8,l Antiga Esquerra de l Eixample,110304,Enric Granados,0147 0147,Divendres,Dv,Laboral,2015,4,Abril,10,21,Tarda,Transitar a peu per la calsada,0,1,0,1,4583085.57,429329.56,2.153520511,41.394353718
 2015S008482,2,Eixample,8,l Antiga Esquerra de l Eixample,144601,Diagonal,0413 0413,Dimarts,Dm,Laboral,2015,11,Novembre,10,19,Tarda,No es causa del  vianant,0,1,0,3,4583152.36,429394.07,2.154284303,41.394960942
 2015S000911,2,Eixample,8,l Antiga Esquerra de l Eixample,144601,Diagonal,0415 0415,Dijous,Dj,Laboral,2015,2,Febrer,5,16,Tarda,No es causa del  vianant,0,3,0,3,4583145.96,429374.69,2.154053249,41.394901596
 2015S001946,2,Eixample,8,l Antiga Esquerra de l Eixample,223606,Muntaner,0059 0059,Divendres,Dv,Laboral,2015,3,Març,13,23,Nit,No es causa del  vianant,0,1,0,4,4582217.69,429802.95,2.159283221,41.386578493
@@ -3632,7 +3632,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S004021,7,Horta-Guinardo,35,el Guinardo,367402,Volart,0032 0032,Dilluns,Dl,Laboral,2015,5,Maig,25,0,Nit,No es causa del  vianant,0,1,0,2,4585495.68,431447.99,2.178585363,41.416244304
 2015S007369,7,Horta-Guinardo,35,el Guinardo,363605,Villar,0046 0046,Dijous,Dj,Laboral,2015,10,Octubre,1,22,Nit,No es causa del  vianant,0,1,0,2,4585598.74,431385.45,2.177825390,41.417167191
 2015S009373,7,Horta-Guinardo,35,el Guinardo,14107,Amilcar,0109 0109,Dijous,Dj,Laboral,2015,12,Desembre,10,11,Mati,Desobeir el senyal del semafor,0,2,0,1,4586619.47,430945.41,2.172443722,41.426322834
-2015S008701,7,Horta-Guinardo,35,el Guinardo,363605,Villar,0023 0025,Dimecres,Dc,Laboral,2015,11,Novembre,18,10,Mati,Transitar a peu per la calçada,0,2,0,1,4585533.35,431501.75,2.179224322,41.416588173
+2015S008701,7,Horta-Guinardo,35,el Guinardo,363605,Villar,0023 0025,Dimecres,Dc,Laboral,2015,11,Novembre,18,10,Mati,Transitar a peu per la calsada,0,2,0,1,4585533.35,431501.75,2.179224322,41.416588173
 2015S002260,7,Horta-Guinardo,35,el Guinardo,365702,Mare de Deu de Montserrat,0278 0278,Dimarts,Dm,Laboral,2015,3,Març,24,22,Nit,No es causa del  vianant,0,1,0,2,4586376.66,431252.36,2.176144497,41.424162271
 2015S007844,7,Horta-Guinardo,35,el Guinardo,14107,Amilcar,0150 0152,Dilluns,Dl,Laboral,2015,10,Octubre,19,17,Tarda,No es causa del  vianant,0,2,0,2,4586190.19,430966.52,2.172745375,41.422458276
 2015S001518,8,Nou Barris,55,Ciutat Meridiana,275600,Rasos de Peguera,0163 0163,Divendres,Dv,Laboral,2015,2,Febrer,27,0,Nit,No es causa del  vianant,0,0,0,4,4590343.53,430641.61,2.168380459,41.459837795
@@ -3955,7 +3955,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S004794,1,Ciutat Vella,1,el Raval,274006,Ramelleres,0000 0000,Diumenge,Dg,Laboral,2015,6,Juny,21,11,Mati,No es causa del  vianant,0,0,0,3,4581969.68,430573.64,2.168528566,41.384411663
 2015S002817,1,Ciutat Vella,1,el Raval,297602,Sant Bernat,0006 0006,Dijous,Dj,Laboral,2015,4,Abril,16,1,Nit,No es causa del  vianant,0,0,0,1,4581917.51,430269.18,2.164893567,41.383915437
 2015S008076,1,Ciutat Vella,1,el Raval,177702,Lleo,0001C0001C,Dimarts,Dm,Laboral,2015,10,Octubre,27,11,Mati,No es causa del  vianant,0,1,0,2,4581681.78,430291.13,2.165183197,41.381794193
-2015S002383,1,Ciutat Vella,1,el Raval,296508,Sant Antoni,0042 0042,Dissabte,Ds,Laboral,2015,3,Març,28,22,Nit,Transitar a peu per la calçada,0,1,0,1,4581577.79,430154.99,2.163567171,41.380845773
+2015S002383,1,Ciutat Vella,1,el Raval,296508,Sant Antoni,0042 0042,Dissabte,Ds,Laboral,2015,3,Març,28,22,Nit,Transitar a peu per la calsada,0,1,0,1,4581577.79,430154.99,2.163567171,41.380845773
 2015S004039,1,Ciutat Vella,2,el Barri Gotic,105100,Dormitori de Sant Francesc,0001B0001B,Dilluns,Dl,Laboral,2015,5,Maig,25,14,Tarda,No es causa del  vianant,0,0,1,2,4581231.45,431400.17,2.178496595,41.377833571
 2015S002706,1,Ciutat Vella,2,el Barri Gotic,106409,Duc,0001 0001,Diumenge,Dg,Laboral,2015,4,Abril,12,0,Nit,No es causa del  vianant,0,0,0,1,4581908.82,430990.23,2.173517466,41.383899379
 2015S007990,1,Ciutat Vella,2,el Barri Gotic,106409,Duc,0001 0001,Divendres,Dv,Laboral,2015,10,Octubre,23,18,Tarda,Altres,0,1,0,1,4581908.82,430990.23,2.173517466,41.383899379
@@ -4405,7 +4405,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S004031,3,Sants-Montjuic,11,el Poble Sec,198804,Paral·lel,0087 0087,Dilluns,Dl,Laboral,2015,5,Maig,25,11,Mati,No es causa del  vianant,0,1,0,2,4580903.65,430315.86,2.165568445,41.374787950
 2015S003449,3,Sants-Montjuic,11,el Poble Sec,198804,Paral·lel,0131 0131,Dimecres,Dc,Laboral,2015,5,Maig,6,18,Tarda,No es causa del  vianant,0,2,0,2,4580910.39,429807.55,2.159489740,41.374804456
 2015S006249,3,Sants-Montjuic,11,el Poble Sec,94707,Creu dels Molers,0005 0005,Dilluns,Dl,Laboral,2015,8,Agost,17,1,Nit,No es causa del  vianant,0,1,0,2,4580875.93,430020.63,2.162041545,41.374512652
-2015S004843,3,Sants-Montjuic,11,el Poble Sec,361009,Vila i Vila,0057B0057B,Diumenge,Dg,Laboral,2015,6,Juny,21,21,Tarda,Transitar a peu per la calçada,0,1,0,1,4580782.42,430690.18,2.170058112,41.373728409
+2015S004843,3,Sants-Montjuic,11,el Poble Sec,361009,Vila i Vila,0057B0057B,Diumenge,Dg,Laboral,2015,6,Juny,21,21,Tarda,Transitar a peu per la calsada,0,1,0,1,4580782.42,430690.18,2.170058112,41.373728409
 2015S003829,3,Sants-Montjuic,11,el Poble Sec,701266,Litoral (Llobregat),1200000,Diumenge,Dg,Laboral,2015,5,Maig,17,13,Mati,No es causa del  vianant,0,0,0,1,4579933.49,430813.12,2.171625023,41.366092911
 2015S005688,3,Sants-Montjuic,11,el Poble Sec,701266,Litoral (Llobregat),1330000,Dijous,Dj,Laboral,2015,7,Juliol,23,18,Tarda,No es causa del  vianant,0,2,0,2,4579236.94,430295.52,2.165516925,41.359774598
 2015S001209,3,Sants-Montjuic,11,el Poble Sec,701266,Litoral (Llobregat),1330000,Dimarts,Dm,Laboral,2015,2,Febrer,17,13,Mati,No es causa del  vianant,0,3,0,3,4579236.94,430295.52,2.165516925,41.359774598
@@ -4489,7 +4489,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S003026,3,Sants-Montjuic,14,la Font de la Guatlla,191601,Mandoni,0001 0001,Dimecres,Dc,Laboral,2015,4,Abril,22,13,Mati,No es causa del  vianant,0,1,0,2,4580333.24,428385.23,2.142551159,41.369480880
 2015S000588,3,Sants-Montjuic,14,la Font de la Guatlla,191601,Mandoni,0001 0001,Dissabte,Ds,Laboral,2015,1,Gener,24,14,Tarda,No es causa del  vianant,0,4,0,2,4580333.24,428385.23,2.142551159,41.369480880
 2015S007345,3,Sants-Montjuic,15,Hostafrancs,246703,Rector Triado,0002 0002,Dijous,Dj,Laboral,2015,10,Octubre,1,0,Nit,No es causa del  vianant,0,1,0,2,4580984.00,428657.34,2.145727911,41.375366235
-2015S000559,3,Sants-Montjuic,15,Hostafrancs,89004,Consell de Cent,0013 0013,Divendres,Dv,Laboral,2015,1,Gener,23,13,Mati,Transitar a peu per la calçada,0,1,0,1,4581024.30,428493.01,2.143758232,41.375714610
+2015S000559,3,Sants-Montjuic,15,Hostafrancs,89004,Consell de Cent,0013 0013,Divendres,Dv,Laboral,2015,1,Gener,23,13,Mati,Transitar a peu per la calsada,0,1,0,1,4581024.30,428493.01,2.143758232,41.375714610
 2015S007532,3,Sants-Montjuic,15,Hostafrancs,94809,Creu Coberta,0108 0108,Dimecres,Dc,Laboral,2015,10,Octubre,7,16,Tarda,No es causa del  vianant,0,1,0,1,4580988.13,428353.21,2.142090888,41.375376398
 2015S004101,3,Sants-Montjuic,14,la Font de la Guatlla,169409,Corts Catalanes,0286 0288,Dimecres,Dc,Laboral,2015,5,Maig,27,16,Tarda,No es causa del  vianant,0,1,0,2,4580596.99,428624.27,2.145378078,41.371877632
 2015S009294,3,Sants-Montjuic,15,Hostafrancs,111307,Ermengarda,0034 0034,Dilluns,Dl,Laboral,2015,12,Desembre,7,15,Tarda,No es causa del  vianant,0,1,0,2,4581145.67,428427.73,2.142963324,41.376801941
@@ -4800,7 +4800,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S005340,6,Gracia,31,la Vila de Gracia,40005,Berga,0036 0036,Divendres,Dv,Laboral,2015,7,Juliol,10,12,Mati,No es causa del  vianant,0,1,0,1,4583831.52,429255.63,2.152549053,41.401065719
 2015S000273,6,Gracia,31,la Vila de Gracia,206403,Gran de Gracia,0127 0127,Dimarts,Dm,Laboral,2015,1,Gener,13,19,Tarda,No es causa del  vianant,0,1,0,2,4583907.61,429302.58,2.153101774,41.401755166
 2015S007244,6,Gracia,31,la Vila de Gracia,201501,Martinez de la Rosa,0030 0030,Dilluns,Dl,Laboral,2015,9,Setembre,28,0,Nit,No es causa del  vianant,0,0,0,4,4583677.65,429815.32,2.159261870,41.399728944
-2015S008384,6,Gracia,31,la Vila de Gracia,208001,Torrent de l Olla,0029 0029,Divendres,Dv,Laboral,2015,11,Novembre,6,18,Tarda,Transitar a peu per la calçada,0,1,0,1,4583663.23,429878.96,2.160024783,41.399604624
+2015S008384,6,Gracia,31,la Vila de Gracia,208001,Torrent de l Olla,0029 0029,Divendres,Dv,Laboral,2015,11,Novembre,6,18,Tarda,Transitar a peu per la calsada,0,1,0,1,4583663.23,429878.96,2.160024783,41.399604624
 2015S006065,6,Gracia,31,la Vila de Gracia,206403,Gran de Gracia,0080 0080,Divendres,Dv,Laboral,2015,8,Agost,7,16,Tarda,No es causa del  vianant,0,1,0,2,4583729.39,429479.67,2.155240904,41.400165563
 2015S009036,6,Gracia,31,la Vila de Gracia,206403,Gran de Gracia,0080 0080,Dissabte,Ds,Laboral,2015,11,Novembre,28,12,Mati,No es causa del  vianant,0,1,0,2,4583729.39,429479.67,2.155240904,41.400165563
 2015S009077,6,Gracia,31,la Vila de Gracia,178206,Leopoldo Alas,0000 0000,Dilluns,Dl,Laboral,2015,11,Novembre,30,1,Nit,No es causa del  vianant,0,1,0,2,4584030.81,429520.52,2.155694429,41.402883930
@@ -4820,7 +4820,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S007056,6,Gracia,31,la Vila de Gracia,109203,Encarnacio,0016 0016,Dissabte,Ds,Laboral,2015,9,Setembre,19,22,Nit,No es causa del  vianant,0,0,0,1,4584310.32,429768.04,2.158622878,41.405423050
 2015S002140,6,Gracia,31,la Vila de Gracia,109203,Encarnacio,0016 0016,Divendres,Dv,Laboral,2015,3,Març,20,22,Nit,No es causa del  vianant,0,1,0,1,4584310.32,429768.04,2.158622878,41.405423050
 2015S000943,6,Gracia,32,el Camp d en Grassot i Gracia Nova,149605,Grassot,0073 0073,Divendres,Dv,Laboral,2015,2,Febrer,6,18,Tarda,No es causa del  vianant,0,2,0,3,4584206.70,430390.09,2.166076226,41.404543914
-2015S000083,6,Gracia,32,el Camp d en Grassot i Gracia Nova,149605,Grassot,0074 0074,Dilluns,Dl,Laboral,2015,1,Gener,5,21,Tarda,Transitar a peu per la calçada,0,1,0,1,4584219.09,430391.37,2.166090112,41.404655618
+2015S000083,6,Gracia,32,el Camp d en Grassot i Gracia Nova,149605,Grassot,0074 0074,Dilluns,Dl,Laboral,2015,1,Gener,5,21,Tarda,Transitar a peu per la calsada,0,1,0,1,4584219.09,430391.37,2.166090112,41.404655618
 2015S009383,6,Gracia,32,el Camp d en Grassot i Gracia Nova,286504,Roger de Flor,0302 0302,Dijous,Dj,Laboral,2015,12,Desembre,10,18,Tarda,No es causa del  vianant,0,2,0,2,4584147.79,430377.51,2.165932517,41.404012242
 2015S009826,6,Gracia,32,el Camp d en Grassot i Gracia Nova,289105,Rossello,0413 0413,Dijous,Dj,Laboral,2015,12,Desembre,24,19,Tarda,No es causa del  vianant,0,1,0,2,4584160.89,430850.27,2.171586412,41.404171055
 2015S004955,6,Gracia,32,el Camp d en Grassot i Gracia Nova,289105,Rossello,0413 0413,Dissabte,Ds,Laboral,2015,6,Juny,27,12,Mati,No es causa del  vianant,0,1,0,2,4584160.89,430850.27,2.171586412,41.404171055
@@ -4905,7 +4905,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S009547,7,Horta-Guinardo,35,el Guinardo,26208,Art,0070 0072,Dimarts,Dm,Laboral,2015,12,Desembre,15,18,Tarda,No es causa del  vianant,0,1,0,1,4585885.87,431212.40,2.175722185,41.419738471
 2015S004797,7,Horta-Guinardo,35,el Guinardo,293601,Sales i Ferre,0072 0072,Diumenge,Dg,Laboral,2015,6,Juny,21,12,Mati,No es causa del  vianant,0,0,1,2,4585982.89,430831.23,2.171150233,41.420579555
 2015S005760,7,Horta-Guinardo,33,el Baix Guinardo,169704,Josep Ciurana,0004 0004,Diumenge,Dg,Laboral,2015,7,Juliol,26,14,Tarda,No es causa del  vianant,0,2,0,1,4585246.60,430506.63,2.167350857,41.413920027
-2015S008704,7,Horta-Guinardo,33,el Baix Guinardo,265402,Praga,0012 0012,Dimecres,Dc,Laboral,2015,11,Novembre,18,13,Mati,Transitar a peu per la calçada,0,1,0,1,4585143.85,430220.36,2.163937693,41.412969775
+2015S008704,7,Horta-Guinardo,33,el Baix Guinardo,265402,Praga,0012 0012,Dimecres,Dc,Laboral,2015,11,Novembre,18,13,Mati,Transitar a peu per la calsada,0,1,0,1,4585143.85,430220.36,2.163937693,41.412969775
 2015S002614,7,Horta-Guinardo,35,el Guinardo,365702,Mare de Deu de Montserrat,0154 0154,Dimecres,Dc,Laboral,2015,4,Abril,8,21,Tarda,No es causa del  vianant,0,1,0,2,4585734.78,430904.99,2.172061172,41.418351264
 2015S008945,7,Horta-Guinardo,35,el Guinardo,42500,Bisbal,0027 0027,Dijous,Dj,Laboral,2015,11,Novembre,26,12,Mati,No es causa del  vianant,0,3,0,2,4585707.33,430961.05,2.172735073,41.418108853
 2015S008977,7,Horta-Guinardo,35,el Guinardo,339906,Torre dels Pardals,0034B0034B,Divendres,Dv,Laboral,2015,11,Novembre,27,8,Mati,No es causa del  vianant,0,1,0,2,4586189.28,431240.35,2.176022102,41.422473575
@@ -5221,7 +5221,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S000602,1,Ciutat Vella,1,el Raval,310303,Sant Rafael,0004 0004,Diumenge,Dg,Laboral,2015,1,Gener,25,4,Nit,No es causa del  vianant,0,2,0,2,4581443.80,430729.86,2.170456936,41.379688690
 2015S004810,1,Ciutat Vella,1,el Raval,86902,Nou de la Rambla,0008 0008,Dilluns,Dl,Laboral,2015,6,Juny,22,1,Nit,No es causa del  vianant,0,1,0,2,4581382.60,431046.43,2.174249464,41.379164685
 2015S000115,1,Ciutat Vella,2,el Barri Gotic,177101,Laietana,0033 0033,Dimecres,Dc,Laboral,2015,1,Gener,7,12,Mati,No es causa del  vianant,0,1,0,1,4582036.00,431289.48,2.177081716,41.385070482
-2015S007759,1,Ciutat Vella,1,el Raval,51307,Bonsucces,0009 0009,Dijous,Dj,Laboral,2015,10,Octubre,15,20,Tarda,Transitar a peu per la calçada,0,1,0,1,4581948.76,430706.01,2.170113960,41.384234662
+2015S007759,1,Ciutat Vella,1,el Raval,51307,Bonsucces,0009 0009,Dijous,Dj,Laboral,2015,10,Octubre,15,20,Tarda,Transitar a peu per la calsada,0,1,0,1,4581948.76,430706.01,2.170113960,41.384234662
 2015S005434,1,Ciutat Vella,1,el Raval,250904,Pelai,0048 0048,Dimarts,Dm,Laboral,2015,7,Juliol,14,23,Nit,No es causa del  vianant,0,1,0,2,4582089.30,430564.54,2.168406023,41.385488259
 2015S003542,1,Ciutat Vella,1,el Raval,311500,Sant Vicenç,0014 0014,Dissabte,Ds,Laboral,2015,5,Maig,9,9,Mati,No es causa del  vianant,0,1,0,1,4581590.67,430296.08,2.165252877,41.380974021
 2015S007428,1,Ciutat Vella,1,el Raval,34308,Rambla,0087 0087,Dissabte,Ds,Laboral,2015,10,Octubre,3,23,Nit,No es causa del  vianant,0,1,0,2,4581679.15,430896.76,2.172425882,41.381822780
@@ -5793,7 +5793,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S003432,4,Les Corts,19,les Corts,110803,Entença,0227 0231,Dimecres,Dc,Laboral,2015,5,Maig,6,14,Tarda,No es causa del  vianant,0,1,0,2,4582238.59,428282.12,2.141092784,41.386632508
 2015S005069,4,Les Corts,19,les Corts,330901,Taquigraf Serra,0016 0016,Dimecres,Dc,Laboral,2015,7,Juliol,1,15,Tarda,No es causa del  vianant,0,1,0,2,4582210.34,428174.39,2.139807768,41.386368454
 2015S009460,4,Les Corts,19,les Corts,330708,Taquigraf Garriga,0188 0188,Dissabte,Ds,Laboral,2015,12,Desembre,12,21,Tarda,No es causa del  vianant,0,1,0,1,4582698.07,428256.54,2.140732419,41.390768592
-2015S002287,4,Les Corts,19,les Corts,-1,Desconegut,Desconegut,Dimecres,Dc,Laboral,2015,3,Març,25,19,Tarda,Transitar a peu per la calçada,0,1,0,1,-1,-1,-1,-1
+2015S002287,4,Les Corts,19,les Corts,-1,Desconegut,Desconegut,Dimecres,Dc,Laboral,2015,3,Març,25,19,Tarda,Transitar a peu per la calsada,0,1,0,1,-1,-1,-1,-1
 2015S008629,4,Les Corts,19,les Corts,88001,Comtes de Bell-lloc,0150 0154,Dilluns,Dl,Laboral,2015,11,Novembre,16,9,Mati,No es causa del  vianant,0,1,0,2,4581775.03,427863.68,2.136143790,41.382419962
 2015S009892,4,Les Corts,19,les Corts,51806,Bordeus,0002 0002,Diumenge,Dg,Laboral,2015,12,Desembre,27,22,Nit,No es causa del  vianant,0,1,0,2,4582427.50,428357.96,2.141977419,41.388340713
 2015S002754,4,Les Corts,19,les Corts,162002,Josep Tarradellas,0133 0139,Dimarts,Dm,Laboral,2015,4,Abril,14,7,Mati,No es causa del  vianant,0,0,1,2,4582622.63,428463.72,2.143219204,41.390107595
@@ -5914,7 +5914,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S002363,5,Sarria-Sant Gervasi,26,Sant Gervasi - Galvany,144601,Diagonal,0580 0580,Divendres,Dv,Laboral,2015,3,Març,27,19,Tarda,No es causa del  vianant,0,4,0,2,4583035.46,428868.32,2.148009661,41.393861709
 2015S003639,5,Sarria-Sant Gervasi,26,Sant Gervasi - Galvany,148806,Granada del Penedes,0001 0001,Dimecres,Dc,Laboral,2015,5,Maig,13,0,Nit,No es causa del  vianant,0,1,0,2,4583437.17,429362.62,2.153874893,41.397523362
 2015S006225,5,Sarria-Sant Gervasi,26,Sant Gervasi - Galvany,148806,Granada del Penedes,0004 0004,Dissabte,Ds,Laboral,2015,8,Agost,15,14,Tarda,No es causa del  vianant,0,2,0,2,4583425.09,429329.46,2.153479668,41.397411646
-2015S006944,5,Sarria-Sant Gervasi,26,Sant Gervasi - Galvany,175900,Laforja,0001 0001,Dimarts,Dm,Laboral,2015,9,Setembre,15,19,Tarda,Transitar a peu per la calçada,0,1,0,1,4583725.11,429129.08,2.151047738,41.400096172
+2015S006944,5,Sarria-Sant Gervasi,26,Sant Gervasi - Galvany,175900,Laforja,0001 0001,Dimarts,Dm,Laboral,2015,9,Setembre,15,19,Tarda,Transitar a peu per la calsada,0,1,0,1,4583725.11,429129.08,2.151047738,41.400096172
 2015S000738,5,Sarria-Sant Gervasi,26,Sant Gervasi - Galvany,55603,Calvet,0050 0050,Divendres,Dv,Laboral,2015,1,Gener,30,13,Mati,No es causa del  vianant,0,1,0,3,4583203.53,428434.56,2.142801774,41.395336949
 2015S002170,5,Sarria-Sant Gervasi,26,Sant Gervasi - Galvany,223606,Muntaner,0263 0263,Diumenge,Dg,Laboral,2015,3,Març,22,2,Nit,No es causa del  vianant,0,0,0,8,4583205.99,428837.56,2.147621703,41.395394888
 2015S006259,5,Sarria-Sant Gervasi,26,Sant Gervasi - Galvany,23403,Aribau,0209 0209,Dilluns,Dl,Laboral,2015,8,Agost,17,18,Tarda,Desobeir el senyal del semafor,0,3,0,1,4583298.84,428940.29,2.148839540,41.396240243
@@ -6634,7 +6634,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S006601,2,Eixample,8,l Antiga Esquerra de l Eixample,287201,Roma,0138 0138,Dimecres,Dc,Laboral,2015,9,Setembre,2,8,Mati,No es causa del  vianant,0,1,0,2,4582089.69,429458.60,2.155179960,41.385395500
 2015S002254,2,Eixample,8,l Antiga Esquerra de l Eixample,289105,Rossello,0203 0203,Dimarts,Dm,Laboral,2015,3,Març,24,10,Mati,No es causa del  vianant,0,0,0,2,4582897.17,429559.93,2.156297820,41.392677086
 2015S006617,2,Eixample,8,l Antiga Esquerra de l Eixample,18505,Arago,0230 0230,Dimecres,Dc,Laboral,2015,9,Setembre,2,16,Tarda,No es causa del  vianant,0,1,0,3,4582538.34,429998.66,2.161586698,41.389483549
-2015S007870,2,Eixample,8,l Antiga Esquerra de l Eixample,100800,Diputacio,0210 0210,Dimarts,Dm,Laboral,2015,10,Octubre,20,13,Mati,Transitar a peu per la calçada,0,1,0,1,4582148.82,429975.61,2.161356075,41.385973260
+2015S007870,2,Eixample,8,l Antiga Esquerra de l Eixample,100800,Diputacio,0210 0210,Dimarts,Dm,Laboral,2015,10,Octubre,20,13,Mati,Transitar a peu per la calsada,0,1,0,1,4582148.82,429975.61,2.161356075,41.385973260
 2015S004973,2,Eixample,8,l Antiga Esquerra de l Eixample,32700,Balmes,0153 0153,Dissabte,Ds,Laboral,2015,6,Juny,27,23,Nit,No es causa del  vianant,0,1,0,2,4583087.11,429515.99,2.155750162,41.394383958
 2015S007569,2,Eixample,8,l Antiga Esquerra de l Eixample,90502,Corsega,0245 0245,Dijous,Dj,Laboral,2015,10,Octubre,8,17,Tarda,No es causa del  vianant,0,1,0,2,4582908.56,429381.95,2.154167783,41.392764055
 2015S009376,2,Eixample,8,l Antiga Esquerra de l Eixample,90502,Corsega,0245 0245,Dijous,Dj,Laboral,2015,12,Desembre,10,12,Mati,No es causa del  vianant,0,1,0,2,4582908.56,429381.95,2.154167783,41.392764055
@@ -6723,7 +6723,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S004236,2,Eixample,7,la Dreta de l Eixample,-1,Desconegut,Desconegut,Dimarts,Dm,Laboral,2015,6,Juny,2,19,Tarda,No es causa del  vianant,0,1,0,2,-1,-1,-1,-1
 2015S007299,2,Eixample,7,la Dreta de l Eixample,169409,Corts Catalanes,0692 0692,Dimarts,Dm,Laboral,2015,9,Setembre,29,19,Tarda,No es causa del  vianant,0,1,0,2,4582957.93,431035.96,2.173944837,41.393352327
 2015S002993,2,Eixample,7,la Dreta de l Eixample,305100,Sant Joan,0029 0029,Dimarts,Dm,Laboral,2015,4,Abril,21,16,Tarda,No es causa del  vianant,0,1,0,2,4582946.86,431310.74,2.177232618,41.393276152
-2015S001655,2,Eixample,7,la Dreta de l Eixample,335100,Tetuan,0003 0003,Dimarts,Dm,Laboral,2015,3,Març,3,19,Tarda,Transitar a peu per la calçada,0,2,0,1,4583042.63,431214.23,2.176067421,41.394130471
+2015S001655,2,Eixample,7,la Dreta de l Eixample,335100,Tetuan,0003 0003,Dimarts,Dm,Laboral,2015,3,Març,3,19,Tarda,Transitar a peu per la calsada,0,2,0,1,4583042.63,431214.23,2.176067421,41.394130471
 2015S009100,2,Eixample,7,la Dreta de l Eixample,89004,Consell de Cent,0318 0318,Dilluns,Dl,Laboral,2015,11,Novembre,30,19,Tarda,No es causa del  vianant,0,0,0,2,4582801.13,430449.27,2.166945722,41.391889528
 2015S007777,2,Eixample,7,la Dreta de l Eixample,176801,Roger de Lluria,0048 0048,Divendres,Dv,Laboral,2015,10,Octubre,16,16,Tarda,No es causa del  vianant,0,1,0,2,4582890.73,430669.95,2.169574853,41.392715591
 2015S002050,2,Eixample,7,la Dreta de l Eixample,335100,Tetuan,0006 0007,Dimecres,Dc,Laboral,2015,3,Març,18,9,Mati,No es causa del  vianant,0,1,0,2,4583055.52,431174.50,2.175590757,41.394243166
@@ -6782,7 +6782,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S006109,2,Eixample,6,la Sagrada Familia,18505,Arago,0523 0523,Diumenge,Dg,Laboral,2015,8,Agost,9,18,Tarda,No es causa del  vianant,0,1,0,3,4584301.21,431747.34,2.182301833,41.405511580
 2015S007804,2,Eixample,6,la Sagrada Familia,18505,Arago,0523 0523,Dissabte,Ds,Laboral,2015,10,Octubre,17,20,Tarda,No es causa del  vianant,0,2,0,3,4584301.21,431747.34,2.182301833,41.405511580
 2015S004410,2,Eixample,7,la Dreta de l Eixample,268003,Provença,0267 0269,Dilluns,Dl,Laboral,2015,6,Juny,8,11,Mati,No es causa del  vianant,0,1,0,2,4583211.82,430072.34,2.162390093,41.395555776
-2015S009643,2,Eixample,7,la Dreta de l Eixample,268003,Provença,0271 0271,Divendres,Dv,Laboral,2015,12,Desembre,18,16,Tarda,Transitar a peu per la calçada,0,1,0,1,4583221.16,430081.35,2.162496782,41.395640682
+2015S009643,2,Eixample,7,la Dreta de l Eixample,268003,Provença,0271 0271,Divendres,Dv,Laboral,2015,12,Desembre,18,16,Tarda,Transitar a peu per la calsada,0,1,0,1,4583221.16,430081.35,2.162496782,41.395640682
 2015S006125,2,Eixample,7,la Dreta de l Eixample,176801,Roger de Lluria,0105 0105,Dilluns,Dl,Laboral,2015,8,Agost,10,11,Mati,No es causa del  vianant,0,1,0,2,4583260.44,430278.13,2.164845933,41.396011558
 2015S000752,2,Eixample,7,la Dreta de l Eixample,-1,Desconegut,Desconegut,Divendres,Dv,Laboral,2015,1,Gener,30,22,Nit,No es causa del  vianant,0,1,0,2,-1,-1,-1,-1
 2015S003763,2,Eixample,7,la Dreta de l Eixample,-1,Desconegut,Desconegut,Divendres,Dv,Laboral,2015,5,Maig,15,22,Nit,No es causa del  vianant,0,1,0,2,-1,-1,-1,-1
@@ -7422,7 +7422,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S003233,8,Nou Barris,51,Verdun,9901,Almansa,0020 0020,Dimarts,Dm,Laboral,2015,4,Abril,28,22,Nit,No es causa del  vianant,0,0,0,4,4588354.38,431286.06,2.176322786,41.441977771
 2015S001090,8,Nou Barris,51,Verdun,239708,Pare Rodes,0011 0011,Dijous,Dj,Laboral,2015,2,Febrer,12,12,Mati,No es causa del  vianant,0,1,0,2,4588150.68,431152.84,2.174751437,41.440131702
 2015S007562,8,Nou Barris,48,la Guineueta,138303,Gasela,0122 0122,Dijous,Dj,Laboral,2015,10,Octubre,8,15,Tarda,No es causa del  vianant,0,1,0,2,4588292.57,430606.29,2.168193400,41.441362573
-2015S005183,8,Nou Barris,51,Verdun,174307,Julia,0155 0155,Divendres,Dv,Laboral,2015,6,Juny,26,20,Tarda,Transitar a peu per la calçada,0,1,0,1,4588539.19,431454.16,2.178313876,41.443656664
+2015S005183,8,Nou Barris,51,Verdun,174307,Julia,0155 0155,Divendres,Dv,Laboral,2015,6,Juny,26,20,Tarda,Transitar a peu per la calsada,0,1,0,1,4588539.19,431454.16,2.178313876,41.443656664
 2015S005879,8,Nou Barris,51,Verdun,361508,Viladrosa,0120 0120,Dijous,Dj,Laboral,2015,7,Juliol,30,19,Tarda,No es causa del  vianant,0,1,0,2,4588600.98,431381.22,2.177433776,41.444206949
 2015S005284,8,Nou Barris,52,la Prosperitat,127602,Florida,0058 0058,Dimecres,Dc,Laboral,2015,7,Juliol,8,18,Tarda,No es causa del  vianant,0,1,0,2,4588647.99,432075.94,2.185744231,41.444689465
 2015S008700,8,Nou Barris,52,la Prosperitat,282650,Rio de Janeiro,0097 0097,Dimecres,Dc,Laboral,2015,11,Novembre,18,12,Mati,No es causa del  vianant,0,8,0,2,4588165.52,431807.89,2.182590162,41.440321293
@@ -8113,7 +8113,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S005546,2,Eixample,5,el Fort Pienc,335100,Tetuan,0038 0039,Dissabte,Ds,Laboral,2015,7,Juliol,18,6,Mati,No es causa del  vianant,0,0,0,2,4583152.89,431246.29,2.176438356,41.395126293
 2015S003285,2,Eixample,5,el Fort Pienc,335100,Tetuan,0038 0039,Dijous,Dj,Laboral,2015,4,Abril,30,12,Mati,No es causa del  vianant,0,1,0,2,4583152.89,431246.29,2.176438356,41.395126293
 2015S002047,2,Eixample,5,el Fort Pienc,-1,Desconegut,Desconegut,Dimecres,Dc,Laboral,2015,3,Març,18,7,Mati,No es causa del  vianant,0,1,0,1,-1,-1,-1,-1
-2015S005136,2,Eixample,5,el Fort Pienc,169409,Corts Catalanes,0734 0734,Divendres,Dv,Laboral,2015,7,Juliol,3,20,Tarda,Transitar a peu per la calçada,0,2,0,1,4583354.28,431441.00,2.178744448,41.396956786
+2015S005136,2,Eixample,5,el Fort Pienc,169409,Corts Catalanes,0734 0734,Divendres,Dv,Laboral,2015,7,Juliol,3,20,Tarda,Transitar a peu per la calsada,0,2,0,1,4583354.28,431441.00,2.178744448,41.396956786
 2015S000786,2,Eixample,5,el Fort Pienc,169409,Corts Catalanes,0744 0744,Diumenge,Dg,Laboral,2015,2,Febrer,1,3,Nit,No es causa del  vianant,0,1,0,2,4583396.58,431494.08,2.179374562,41.397342296
 2015S002130,2,Eixample,5,el Fort Pienc,169409,Corts Catalanes,0737 0739,Divendres,Dv,Laboral,2015,3,Març,20,20,Tarda,No es causa del  vianant,0,0,0,1,4583555.49,431572.81,2.180298307,41.398780259
 2015S002962,2,Eixample,5,el Fort Pienc,169409,Corts Catalanes,0737 0739,Dilluns,Dl,Laboral,2015,4,Abril,20,15,Tarda,No es causa del  vianant,0,1,0,1,4583555.49,431572.81,2.180298307,41.398780259
@@ -8250,7 +8250,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S005522,3,Sants-Montjuic,18,Sants,312400,Sants,0059 0059,Divendres,Dv,Laboral,2015,7,Juliol,17,16,Tarda,No es causa del  vianant,0,1,0,1,4580977.63,427993.85,2.137795211,41.375249737
 2015S000359,3,Sants-Montjuic,18,Sants,352904,Vallespir,0065 0065,Divendres,Dv,Laboral,2015,1,Gener,16,13,Mati,No es causa del  vianant,0,0,0,1,4581519.98,427889.74,2.136485794,41.380125159
 2015S002200,3,Sants-Montjuic,18,Sants,312400,Sants,0056 0056,Dilluns,Dl,Laboral,2015,3,Març,23,11,Mati,Creuar per fora pas de vianants,0,2,0,1,4581000.74,428008.00,2.137961659,41.375459147
-2015S000257,4,Les Corts,19,les Corts,231502,Numancia,0098 0098,Dimarts,Dm,Laboral,2015,1,Gener,13,10,Mati,Transitar a peu per la calçada,0,1,0,2,4582151.83,427936.58,2.136970721,41.385820196
+2015S000257,4,Les Corts,19,les Corts,231502,Numancia,0098 0098,Dimarts,Dm,Laboral,2015,1,Gener,13,10,Mati,Transitar a peu per la calsada,0,1,0,2,4582151.83,427936.58,2.136970721,41.385820196
 2015S002238,4,Les Corts,19,les Corts,40300,Berlin,0105 0105,Dimarts,Dm,Laboral,2015,3,Març,24,15,Tarda,No es causa del  vianant,0,1,0,2,4582057.86,428321.41,2.141584056,41.385008243
 2015S009019,4,Les Corts,19,les Corts,199909,Marques de Sentmenat,0080 0080,Divendres,Dv,Laboral,2015,11,Novembre,27,20,Tarda,No es causa del  vianant,0,1,0,2,4582081.86,428206.21,2.140203542,41.385214124
 2015S000859,4,Les Corts,19,les Corts,700143,Corts,0000 0000,Dimarts,Dm,Laboral,2015,2,Febrer,3,19,Tarda,Creuar per fora pas de vianants,0,2,0,1,4582183.41,427976.84,2.137448437,41.386108233
@@ -8424,7 +8424,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S009149,5,Sarria-Sant Gervasi,24,les Tres Torres,28000,Augusta,0291 0291,Dimecres,Dc,Laboral,2015,12,Desembre,2,10,Mati,No es causa del  vianant,0,1,0,2,4583470.69,427250.25,2.128604369,41.397636826
 2015S000211,5,Sarria-Sant Gervasi,24,les Tres Torres,357103,Vergos,0020 0020,Diumenge,Dg,Laboral,2015,1,Gener,11,14,Tarda,No es causa del  vianant,0,3,0,2,4583613.67,427350.02,2.129780573,41.398933613
 2015S002654,5,Sarria-Sant Gervasi,24,les Tres Torres,28000,Augusta,0336 0336,Dijous,Dj,Laboral,2015,4,Abril,9,18,Tarda,No es causa del  vianant,0,2,0,2,4583717.05,426886.40,2.124222522,41.399822668
-2015S007015,5,Sarria-Sant Gervasi,24,les Tres Torres,143904,General Mitre,0067 0067,Divendres,Dv,Laboral,2015,9,Setembre,18,12,Mati,Transitar a peu per la calçada,0,1,0,1,4583416.20,427586.76,2.132635957,41.397176447
+2015S007015,5,Sarria-Sant Gervasi,24,les Tres Torres,143904,General Mitre,0067 0067,Divendres,Dv,Laboral,2015,9,Setembre,18,12,Mati,Transitar a peu per la calsada,0,1,0,1,4583416.20,427586.76,2.132635957,41.397176447
 2015S006565,5,Sarria-Sant Gervasi,23,Sarria,120308,Francesc Carbonell,0030 0030,Dimarts,Dm,Laboral,2015,9,Setembre,1,9,Mati,No es causa del  vianant,0,1,0,1,4582936.81,427010.50,2.125801056,41.392806654
 2015S007576,5,Sarria-Sant Gervasi,24,les Tres Torres,196106,Maria Auxiliadora,0001 0001,Divendres,Dv,Laboral,2015,10,Octubre,9,0,Nit,No es causa del  vianant,0,1,0,1,4583228.50,427330.46,2.129592859,41.395462777
 2015S005614,5,Sarria-Sant Gervasi,23,Sarria,701268,Dalt (Llobregat),700000,Dimarts,Dm,Laboral,2015,7,Juliol,21,11,Mati,No es causa del  vianant,0,0,0,2,4583902.00,426082.19,2.114580314,41.401414860
@@ -8475,7 +8475,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S008929,5,Sarria-Sant Gervasi,25,Sant Gervasi - la Bonanova,191703,Mandri,0044 0044,Dimarts,Dm,Laboral,2015,11,Novembre,24,19,Tarda,No es causa del  vianant,0,1,0,3,4584160.66,427652.43,2.133332431,41.403887409
 2015S002563,5,Sarria-Sant Gervasi,27,el Putxet i el Farro,152508,Guillem Tell,0027 0027,Dimarts,Dm,Laboral,2015,4,Abril,7,6,Mati,No es causa del  vianant,0,1,0,2,4583988.55,428938.79,2.148740601,41.402452074
 2015S009876,5,Sarria-Sant Gervasi,25,Sant Gervasi - la Bonanova,339203,Torras i Pujalt,0054 0056,Diumenge,Dg,Laboral,2015,12,Desembre,27,7,Mati,No es causa del  vianant,0,0,0,2,4584080.27,427623.77,2.132999207,41.403160789
-2015S003741,5,Sarria-Sant Gervasi,27,el Putxet i el Farro,267000,Princep d Asturies,0017 0017,Divendres,Dv,Laboral,2015,5,Maig,15,16,Tarda,Transitar a peu per la calçada,0,1,0,1,4583989.19,429065.21,2.150252782,41.402469008
+2015S003741,5,Sarria-Sant Gervasi,27,el Putxet i el Farro,267000,Princep d Asturies,0017 0017,Divendres,Dv,Laboral,2015,5,Maig,15,16,Tarda,Transitar a peu per la calsada,0,1,0,1,4583989.19,429065.21,2.150252782,41.402469008
 2015S008033,5,Sarria-Sant Gervasi,25,Sant Gervasi - la Bonanova,302203,Sant Gervasi de Cassoles,0051 0051,Divendres,Dv,Laboral,2015,10,Octubre,23,21,Tarda,No es causa del  vianant,0,1,0,1,4584284.30,428023.28,2.137753968,41.405034291
 2015S005696,5,Sarria-Sant Gervasi,25,Sant Gervasi - la Bonanova,80203,Ciutat de Balaguer,0064 0066,Dijous,Dj,Laboral,2015,7,Juliol,23,19,Tarda,No es causa del  vianant,0,1,0,2,4584254.68,427702.43,2.133919313,41.404738709
 2015S003297,5,Sarria-Sant Gervasi,27,el Putxet i el Farro,40606,Berna,0017 0017,Dijous,Dj,Laboral,2015,4,Abril,30,12,Mati,No es causa del  vianant,0,1,0,2,4584390.18,428739.66,2.146311269,41.406051767
@@ -8582,7 +8582,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S000768,7,Horta-Guinardo,37,el Carmel,179901,Lisboa,0051 0051,Dissabte,Ds,Laboral,2015,1,Gener,31,11,Mati,No es causa del  vianant,0,1,0,2,4586875.83,429565.75,2.155904044,41.428511916
 2015S002219,7,Horta-Guinardo,37,el Carmel,325504,Sigüenza,0027 0027,Dilluns,Dl,Laboral,2015,3,Març,23,19,Tarda,No es causa del  vianant,0,1,0,2,4586421.94,429476.58,2.154889924,41.424416081
 2015S006422,7,Horta-Guinardo,37,el Carmel,85900,Conca de Tremp,0071 0071,Dimarts,Dm,Laboral,2015,8,Agost,25,22,Nit,No es causa del  vianant,0,1,0,2,4586127.01,429658.74,2.157104014,41.421775740
-2015S001739,7,Horta-Guinardo,37,el Carmel,85900,Conca de Tremp,0094 0094,Dilluns,Dl,Laboral,2015,3,Març,2,17,Tarda,Transitar a peu per la calçada,0,1,0,1,4585975.84,429684.42,2.157428880,41.420416458
+2015S001739,7,Horta-Guinardo,37,el Carmel,85900,Conca de Tremp,0094 0094,Dilluns,Dl,Laboral,2015,3,Març,2,17,Tarda,Transitar a peu per la calsada,0,1,0,1,4585975.84,429684.42,2.157428880,41.420416458
 2015S006880,7,Horta-Guinardo,37,el Carmel,318600,Santa Teresa,0012 0012,Diumenge,Dg,Laboral,2015,9,Setembre,13,18,Tarda,No es causa del  vianant,0,0,0,1,4586410.94,429646.38,2.156923066,41.424331904
 2015S003496,7,Horta-Guinardo,37,el Carmel,224405,Murtra,0151 0153,Divendres,Dv,Laboral,2015,5,Maig,8,9,Mati,No es causa del  vianant,0,1,0,1,4585991.88,429532.10,2.155604429,41.420547572
 2015S000147,7,Horta-Guinardo,37,el Carmel,67103,Carmel,0028 0028,Dijous,Dj,Laboral,2015,1,Gener,8,15,Tarda,No es causa del  vianant,0,2,0,2,4586585.88,429692.52,2.157454833,41.425911562
@@ -8672,7 +8672,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S008737,8,Nou Barris,44,Vilapicina i la Torre Llobeta,170907,Jota,0017 0017,Dijous,Dj,Laboral,2015,11,Novembre,19,11,Mati,No es causa del  vianant,0,1,0,2,4586946.56,431827.80,2.182966050,41.429344235
 2015S001089,8,Nou Barris,44,Vilapicina i la Torre Llobeta,108903,Emili Roca,0031 0033,Dijous,Dj,Laboral,2015,2,Febrer,12,10,Mati,No es causa del  vianant,0,1,0,1,4586988.43,431416.43,2.178038358,41.429686304
 2015S001151,8,Nou Barris,44,Vilapicina i la Torre Llobeta,18301,Francesc Bolos,0036 0036,Dissabte,Ds,Laboral,2015,2,Febrer,14,14,Tarda,No es causa del  vianant,0,0,0,3,4586827.11,430967.46,2.172683864,41.428194869
-2015S004749,8,Nou Barris,44,Vilapicina i la Torre Llobeta,18301,Francesc Bolos,0036 0036,Divendres,Dv,Laboral,2015,6,Juny,19,14,Tarda,Transitar a peu per la calçada,0,1,0,1,4586827.11,430967.46,2.172683864,41.428194869
+2015S004749,8,Nou Barris,44,Vilapicina i la Torre Llobeta,18301,Francesc Bolos,0036 0036,Divendres,Dv,Laboral,2015,6,Juny,19,14,Tarda,Transitar a peu per la calsada,0,1,0,1,4586827.11,430967.46,2.172683864,41.428194869
 2015S009620,8,Nou Barris,45,Porta,107605,Eduard Tubau,0034 0034,Dijous,Dj,Laboral,2015,12,Desembre,17,14,Tarda,No es causa del  vianant,0,0,0,1,4587911.22,431208.81,2.175448628,41.437979774
 2015S002267,8,Nou Barris,45,Porta,193458,Manuel Sanchis i Guarner,0008 0008,Dimecres,Dc,Laboral,2015,3,Març,25,8,Mati,No es causa del  vianant,0,1,0,2,4587937.50,431774.67,2.182218307,41.438264774
 2015S009641,8,Nou Barris,45,Porta,113404,Escultor Ordoñez,0118 0118,Divendres,Dv,Laboral,2015,12,Desembre,18,14,Tarda,No es causa del  vianant,0,1,0,1,4587655.40,431293.97,2.176496990,41.435682992
@@ -8726,7 +8726,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S005373,9,Sant Andreu,60,Sant Andreu,279804,Residencia,0028X0028X,Diumenge,Dg,Laboral,2015,7,Juliol,12,9,Mati,No es causa del  vianant,0,1,0,2,4588138.92,432328.44,2.188823720,41.440125783
 2015S002801,9,Sant Andreu,60,Sant Andreu,306907,Sant Maria,0025 0025,Dimecres,Dc,Laboral,2015,4,Abril,15,13,Mati,No es causa del  vianant,0,0,0,1,4587745.31,432319.16,2.188756759,41.436579889
 2015S002124,9,Sant Andreu,60,Sant Andreu,86108,Concepcion Arenal,0207 0207,Divendres,Dv,Laboral,2015,3,Març,20,16,Tarda,No es causa del  vianant,0,1,0,2,4586985.78,431954.41,2.184476799,41.429708218
-2015S008421,9,Sant Andreu,60,Sant Andreu,176404,Llenguadoc,0015 0015,Diumenge,Dg,Laboral,2015,11,Novembre,8,18,Tarda,Transitar a peu per la calçada,0,1,0,1,4587128.12,432284.62,2.188412557,41.431018150
+2015S008421,9,Sant Andreu,60,Sant Andreu,176404,Llenguadoc,0015 0015,Diumenge,Dg,Laboral,2015,11,Novembre,8,18,Tarda,Transitar a peu per la calsada,0,1,0,1,4587128.12,432284.62,2.188412557,41.431018150
 2015S007702,9,Sant Andreu,60,Sant Andreu,91403,Coroleu,0060 0060,Dimecres,Dc,Laboral,2015,10,Octubre,14,7,Mati,No es causa del  vianant,0,1,0,2,4587362.97,432054.70,2.185634572,41.433113937
 2015S006279,9,Sant Andreu,60,Sant Andreu,163209,Irlanda,0020 0020,Dimarts,Dm,Laboral,2015,8,Agost,18,13,Mati,No es causa del  vianant,0,2,0,2,4587182.87,432142.01,2.186699720,41.431499223
 2015S000800,9,Sant Andreu,57,la Trinitat Vella,365600,Mare de Deu de Lorda,0002 0010,Dilluns,Dl,Laboral,2015,2,Febrer,2,7,Mati,No es causa del  vianant,0,1,0,2,4589263.42,432542.24,2.191257077,41.450271769
@@ -8925,7 +8925,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S005282,1,Ciutat Vella,1,el Raval,701497,B-10 (Llobregat),1090000,Dimecres,Dc,Laboral,2015,7,Juliol,8,19,Tarda,No es causa del  vianant,0,1,0,2,4580889.43,431349.76,2.177932564,41.374748786
 2015S002230,1,Ciutat Vella,1,el Raval,86902,Nou de la Rambla,0012 0012,Dimarts,Dm,Laboral,2015,3,Març,24,9,Mati,No es causa del  vianant,0,0,0,1,4581356.16,431025.23,2.173998966,41.378924730
 2015S006592,1,Ciutat Vella,1,el Raval,701367,Raval,0013 0013,Dimarts,Dm,Laboral,2015,9,Setembre,1,21,Tarda,Creuar per fora pas de vianants,0,1,0,1,4581404.52,430613.77,2.169073227,41.379324898
-2015S006260,1,Ciutat Vella,1,el Raval,51307,Bonsucces,0007 0007,Dilluns,Dl,Laboral,2015,8,Agost,17,17,Tarda,Transitar a peu per la calçada,0,1,0,1,4581952.38,430710.82,2.170171068,41.384267681
+2015S006260,1,Ciutat Vella,1,el Raval,51307,Bonsucces,0007 0007,Dilluns,Dl,Laboral,2015,8,Agost,17,17,Tarda,Transitar a peu per la calsada,0,1,0,1,4581952.38,430710.82,2.170171068,41.384267681
 2015S007922,1,Ciutat Vella,1,el Raval,335803,Tigre,0000 0000,Dimecres,Dc,Laboral,2015,10,Octubre,21,14,Tarda,No es causa del  vianant,0,1,0,2,4581768.73,430226.32,2.164398155,41.382571704
 2015S008854,1,Ciutat Vella,1,el Raval,122609,Ferlandina,0002 0008,Dilluns,Dl,Laboral,2015,11,Novembre,23,19,Tarda,Creuar per fora pas de vianants,0,1,0,1,4581810.70,430441.71,2.166969089,41.382968376
 2015S002183,1,Ciutat Vella,1,el Raval,34308,Rambla,0095 0095,Diumenge,Dg,Laboral,2015,3,Març,22,15,Tarda,No es causa del  vianant,0,1,0,2,4581734.11,430861.01,2.171992093,41.382314715
@@ -9195,7 +9195,7 @@ Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer
 2015S003825,2,Eixample,7,la Dreta de l Eixample,32700,Balmes,0036 0042,Dilluns,Dl,Laboral,2015,5,Maig,18,15,Tarda,No es causa del  vianant,0,1,0,2,4582445.16,430172.19,2.163672832,41.388659398
 2015S009136,2,Eixample,7,la Dreta de l Eixample,89004,Consell de Cent,0417 0419,Dimarts,Dm,Laboral,2015,12,Desembre,1,20,Tarda,No es causa del  vianant,0,1,0,2,4583265.93,430893.33,2.172203735,41.396114138
 2015S001059,2,Eixample,7,la Dreta de l Eixample,169409,Corts Catalanes,0638 0638,Dimecres,Dc,Laboral,2015,2,Febrer,11,9,Mati,No es causa del  vianant,0,1,0,2,4582568.87,430638.77,2.169238807,41.389814008
-2015S008070,2,Eixample,7,la Dreta de l Eixample,31300,Bailen,0096 0096,Dimarts,Dm,Laboral,2015,10,Octubre,27,8,Mati,Transitar a peu per la calçada,0,1,0,1,4583360.49,430772.13,2.170743238,41.396955380
+2015S008070,2,Eixample,7,la Dreta de l Eixample,31300,Bailen,0096 0096,Dimarts,Dm,Laboral,2015,10,Octubre,27,8,Mati,Transitar a peu per la calsada,0,1,0,1,4583360.49,430772.13,2.170743238,41.396955380
 2015S002618,2,Eixample,7,la Dreta de l Eixample,305100,Sant Joan,0055 0055,Dimecres,Dc,Laboral,2015,4,Abril,8,18,Tarda,No es causa del  vianant,0,1,0,1,4583348.50,430918.21,2.172491901,41.396859960
 2015S006762,2,Eixample,7,la Dreta de l Eixample,335100,Tetuan,0012 0013,Dimarts,Dm,Laboral,2015,9,Setembre,8,17,Tarda,No es causa del  vianant,0,1,0,1,4583074.73,431080.64,2.174465936,41.394408142
 2015S003279,2,Eixample,7,la Dreta de l Eixample,335100,Tetuan,0017 0018,Dijous,Dj,Laboral,2015,4,Abril,30,9,Mati,No es causa del  vianant,0,1,0,2,4583134.54,431100.03,2.174691046,41.394948495

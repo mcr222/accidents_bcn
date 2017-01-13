@@ -1,3 +1,5 @@
+map.controls[google.maps.ControlPosition.RIGHT_TOP].push(paint_color_options);
+
 var color_options = document.getElementById("paint_color_options");
 var selectedOpt="Week day";
 
@@ -33,12 +35,13 @@ function obtain_size(d){
 	return 2+5*score;
 }
 
-var colorsWeekdays=["red", "white", "blue", "green", "yellow", "brown", "orange"];
-var colorsPedestrianCause=["red", "white", "blue", "green", "yellow", "orange"];
-var colorsDayPart=["red", "white", "blue"];
-var colorsNeihgborhoods=["black","red", "white", "blue", "green", "yellow", "orange",
+var colorsWeekdays=["red", "pink", "blue", "green", "yellow", "brown", "orange"];
+var colorsPedestrianCause=["red", "pink", "blue", "green", "yellow", "orange"];
+var colorsDayPart=["yellow", "green", "blue"];
+var colorsNeihgborhoods=["blue","red", "lightgreen", "lightblue", "green", "yellow", "orange",
                          "grey", "pink", "brown","purple" ];
 var codiBarris=[-1,1,2,3,4,5,6,7,8,9,10];
+
 var colours = ["#6363FF", "#6373FF", "#63A3FF", "#63E3FF", "#63FFFB", "#63FFCB",
                "#63FF9B", "#63FF6B", "#7BFF63", "#BBFF63", "#DBFF63", "#FBFF63", 
                "#FFD363", "#FFB363", "#FF8363", "#FF7363", "#FF6364"];
@@ -79,6 +82,9 @@ function obtain_color(d){
 	case "Pedestrian cause":
 		c=d3.scaleOrdinal().domain(filter_values_opcions[3]).range(colorsPedestrianCause);
 		return c(data["Descripcio causa vianant"]);
+	case "Vehicles involved":
+		c=d3.scaleLinear().domain([0,12]).range([0,1]);
+		return heatmapColour(c(data["Numero de vehicles implicats"]));
 	default:
 	} 
 }
