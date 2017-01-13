@@ -1,5 +1,7 @@
 var x2,y2;
+
 function paint_bottom_bar_chart(){
+	
 	console.log("painting bottom_bar_chart");
 	var chart = d3.select("#bottom_bar_chart").select("svg");
 	if(chart!=null) {	
@@ -53,7 +55,7 @@ function paint_bottom_bar_chart(){
 	  if (error) throw error;
 	
 	//Process the data to build the stacked bar data
-	  data.filter(filter_data_row_no_time).forEach(function(d) {
+	  data.filter(filter_data_row_no_time).forEach(function(d) {  		
 		  dataDateTime=obtain_Date(d).getTime();
 		  for(var i = 0; i<dateBuckets.length; ++i){
 			  if(dateBuckets[i].date.getTime()>=dataDateTime) {
@@ -68,8 +70,8 @@ function paint_bottom_bar_chart(){
 		  }
 	  
 		});
-		
-		
+	  
+
 	  x2.domain(d3.extent(dateBuckets, function(d) { return d.date; }));
 	  y2.domain([0, d3.max(dateBuckets, function(d) { return d.total; })]);
 	

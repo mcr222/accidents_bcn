@@ -13,7 +13,16 @@ var line = d3.line(),
     foreground,
     extents;
 
+var totalVal = {"Numero accidents":0,"Numero de morts":0,"Numero de lesionats lleus":0, 
+        "Numero de lesionats greus":0, "Numero de vehicles implicats":0};
+var total_value_text = document.getElementById("totalValue");
+
 function paint_parallel_coord_chart() {
+	totalVal = {"Numero accidents":0,"Numero de morts":0,"Numero de lesionats lleus":0, 
+	        "Numero de lesionats greus":0, "Numero de vehicles implicats":0};
+	total_value_text.innerHTML = 0;
+	
+	
 	console.log("painting parallel chart");
 	var chart = d3.select("#bottom_div_right").select("svg");
 	if(chart!=null) {	
@@ -27,6 +36,20 @@ function paint_parallel_coord_chart() {
 	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 	
 	d3.csv(datafile, function(error, data_accidents) {
+		  data_accidents.filter(filter_data_row).forEach(function(d) {
+			  if(dropdown_menu_selected=="Numero accidents") {
+	    		  totalVal["Numero accidents"] += 1;	
+			  } else if(!isNaN(d[dropdown_menu_selected])) {
+				  totalVal[dropdown_menu_selected] += parseInt(d[dropdown_menu_selected]);
+			  }
+	  		
+		  
+			});
+		  total_value_text.innerHTML = totalVal[dropdown_menu_selected];
+			
+		
+		
+		
 	  // Extract the list of dimensions and create a scale for each.
 		//data_accidents[0] contains the header elements, then for all elements in the header
 		//different than "name" it creates and y axis in a dictionary by variable name
