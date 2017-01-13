@@ -31,7 +31,9 @@ function obtain_size(d){
 	var score = (data["Numero de lesionats lleus"]/11+2*data["Numero de lesionats greus"]/3+4*data["Numero de morts"]/3
 			+data["Numero de vehicles implicats"]/12)/4;
 	//console.log(score);
-	//return 2.5;
+	if(isNaN(score)) {
+		return 2;
+	}
 	return 2+5*score;
 }
 
