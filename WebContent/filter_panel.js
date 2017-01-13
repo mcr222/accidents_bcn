@@ -99,7 +99,8 @@ function addRow(variable, values) {
 		cell2.appendChild(button_close);
 	}
 	console.log(filter_table);
-	paint_points_in_map();
+	update_charts();
+	paint_bottom_bar_chart();
 }
 
 function removeFilter() {
@@ -107,7 +108,9 @@ function removeFilter() {
     row.parentNode.removeChild(row);
     delete filter_table[this.id];
 	console.log(filter_table);
-	paint_points_in_map();
+	update_charts();
+	paint_bottom_bar_chart();
+	
 }
 
 
