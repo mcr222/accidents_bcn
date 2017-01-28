@@ -9,26 +9,25 @@ function paint_legend(){
 	cleanValues();
 	var marker;
 	var legend = document.getElementById('legend');
+	legend.appendChild(color_options);
+	var legend_content = document.createElement('table');
+	legend_content.id = "legend_content";
+	legend.appendChild(legend_content);
 	var idx = filter_variable_options.indexOf(selectedOpt);
+	
+	
 	for (val in filter_values_options[idx]){
-		var div = document.createElement('div');
-		var color_div = document.createElement('div');
 		var d = {};
 		d[filter_variable_opcions[idx]] = filter_values_opcions[idx][val];
-		
-		color_div.style.backgroundColor = obtain_color(d);
-		color_div.className = "legend_color";
-		div.innerHTML = filter_values_options[idx][val];
-		div.appendChild(color_div);
-		legend.appendChild(div);
-//				d3.select("div")
-//				.append("svg")
-//				.attr("width", 50)
-//				.attr("height", 50)
-//				.append("circle")
-//				.attr("r", 2.5);
-//				.style("fill", obtain_color);
-
+		var row = legend_content.insertRow(-1);
+		row.className = "rowLegend"
+		var cell0 = row.insertCell(0);
+		circle_legend = document.createElement('div');
+		circle_legend.style.backgroundColor = obtain_color(d);
+		circle_legend.id = "circle_legend";
+		cell0.appendChild(circle_legend);
+		var cell1 = row.insertCell(1);
+		cell1.innerHTML = filter_values_options[idx][val];
 	}
 }
 paint_legend();

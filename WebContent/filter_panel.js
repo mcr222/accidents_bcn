@@ -19,9 +19,9 @@ for(var i=0;i<filter_variable_options.length;++i) {
 var row = filters_table_widget.insertRow();
 row.id = "header";
 var cell0 = row.insertCell(0);
-cell0.innerHTML = "Variable";
+cell0.innerHTML = "Filter variable";
 var cell1 = row.insertCell(1);
-cell1.innerHTML = "Keep values (&&)";
+cell1.innerHTML = "Keep this values";
 var cell2 = row.insertCell(2);
 cell2.innerHTML = "";
 
