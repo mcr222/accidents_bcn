@@ -1,19 +1,19 @@
-Y,X
-2.182556214,41.415596102
-2.184150107,41.416825939
-2.184541478,41.416915003
-2.179603317,41.414130119
-2.181023624,41.413366847
-2.180601994,41.414822520
-2.181029501,41.414557409
-2.176648943,41.411407146
-2.177439875,41.412029812
-2.180425097,41.412568399
-2.184592988,41.407210428
-2.185284503,41.409329832
-2.185664980,41.409617250
-2.186104129,41.409949219
-2.186469829,41.408495201
-2.183318334,41.406224711
-2.194329184,41.412959719
--1,-1
+Numero d expedient,Codi districte,Nom districte,Codi barri,Nom barri,Codi carrer,Nom carrer,Num postal caption,Descripcio dia setmana,Dia setmana,Descripcio tipus dia,NK Any,Mes de any,Nom mes,Dia de mes,Hora de dia,Descripcio torn,Descripcio causa vianant,Numero de morts,Numero de lesionats lleus,Numero de lesionats greus,Numero de vehicles implicats,CoordenadaUTMY,CoordenadaUTMX,Long,Lat
+2015S005807,-1,Desconegut,-1,Desconegut,-1,Desconegut,Desconegut,Dimarts,Dm,Laboral,2015,7,Juliol,28,12,Mati,No es causa del  vianant,0,2,0,2,-1,-1,-1,-1
+2015S007685,10,Sant Marti,64,el Camp de l Arpa del Clot,134801,Freser,0208 0208,Dimarts,Dm,Laboral,2015,10,Octubre,13,19,Tarda,Desobeir el senyal del semafor,0,1,0,1,4585420.58,431779.16,2.182556214,41.415596102
+2015S001364,10,Sant Marti,64,el Camp de l Arpa del Clot,161407,Industria,0336 0336,Dissabte,Ds,Laboral,2015,2,Febrer,21,21,Tarda,No es causa del  vianant,0,1,0,1,4585555.86,431913.65,2.184150107,41.416825939
+2015S004325,10,Sant Marti,64,el Camp de l Arpa del Clot,226400,Las Navas de Tolosa,0343 0343,Divendres,Dv,Laboral,2015,6,Juny,5,9,Mati,No es causa del  vianant,0,1,0,2,4585565.44,431946.45,2.184541478,41.416915003
+2015S005540,10,Sant Marti,64,el Camp de l Arpa del Clot,95506,Conca,0032 0034,Divendres,Dv,Laboral,2015,7,Juliol,17,20,Tarda,No es causa del  vianant,0,2,0,1,4585260.16,431530.84,2.179603317,41.414130119
+2015S002024,10,Sant Marti,64,el Camp de l Arpa del Clot,194406,Maragall,0001 0003,Dimarts,Dm,Laboral,2015,3,Mar�,17,12,Mati,Desobeir el senyal del semafor,0,1,0,1,4585174.30,431648.74,2.181023624,41.413366847
+2015S002980,10,Sant Marti,64,el Camp de l Arpa del Clot,194406,Maragall,0029 0031,Dilluns,Dl,Laboral,2015,4,Abril,20,18,Tarda,No es causa del  vianant,0,1,0,1,4585336.24,431615.03,2.180601994,41.414822520
+2015S006560,10,Sant Marti,64,el Camp de l Arpa del Clot,161407,Industria,0288 0288,Dilluns,Dl,Laboral,2015,8,Agost,31,20,Tarda,No es causa del  vianant,0,2,0,2,4585306.47,431650.48,2.181029501,41.414557409
+2015S005036,10,Sant Marti,64,el Camp de l Arpa del Clot,161407,Industria,0197 0197,Dimarts,Dm,Laboral,2015,6,Juny,30,13,Mati,No es causa del  vianant,0,3,0,2,4584960.20,431281.06,2.176648943,41.411407146
+2015S002656,10,Sant Marti,64,el Camp de l Arpa del Clot,161407,Industria,0223 0225,Divendres,Dv,Laboral,2015,4,Abril,10,9,Mati,No es causa del  vianant,0,1,0,2,4585028.70,431347.82,2.177439875,41.412029812
+2015S004786,10,Sant Marti,64,el Camp de l Arpa del Clot,90502,Corsega,0701 0701,Dissabte,Ds,Laboral,2015,6,Juny,20,18,Tarda,No es causa del  vianant,0,2,0,3,4585086.13,431597.88,2.180425097,41.412568399
+2015S009038,10,Sant Marti,64,el Camp de l Arpa del Clot,18505,Arago,0555 0555,Dissabte,Ds,Laboral,2015,11,Novembre,28,13,Mati,No es causa del  vianant,0,2,0,1,4584488.01,431940.62,2.184592988,41.407210428
+2015S000670,10,Sant Marti,64,el Camp de l Arpa del Clot,350308,Valencia,0595 0595,Dimarts,Dm,Laboral,2015,1,Gener,27,20,Tarda,No es causa del  vianant,0,1,0,1,4584722.76,432000.63,2.185284503,41.409329832
+2015S008179,10,Sant Marti,64,el Camp de l Arpa del Clot,350308,Valencia,0603 0603,Divendres,Dv,Laboral,2015,10,Octubre,30,21,Tarda,No es causa del  vianant,0,1,0,2,4584754.37,432032.73,2.185664980,41.409617250
+2015S002056,10,Sant Marti,64,el Camp de l Arpa del Clot,350308,Valencia,0615 0615,Dimecres,Dc,Laboral,2015,3,Mar�,18,12,Mati,No es causa del  vianant,0,3,0,3,4584790.88,432069.78,2.186104129,41.409949219
+2015S000526,10,Sant Marti,64,el Camp de l Arpa del Clot,18505,Arago,0607 0607,Dijous,Dj,Laboral,2015,1,Gener,22,9,Mati,No es causa del  vianant,0,2,0,2,4584629.17,432098.83,2.186469829,41.408495201
+2015S008544,10,Sant Marti,64,el Camp de l Arpa del Clot,105304,Dos de Maig,0210 0212,Dijous,Dj,Laboral,2015,11,Novembre,12,16,Tarda,No es causa del  vianant,0,1,0,2,4584379.58,431833.05,2.183318334,41.406224711
+2015S008823,10,Sant Marti,65,el Clot,115603,Espronceda,0267 0269,Diumenge,Dg,Laboral,2015,11,Novembre,22,10,Mati,No es causa del  vianant,0,1,0,2,4585118.68,432760.33,2.194329184,41.412959719

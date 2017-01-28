@@ -11,25 +11,32 @@
 		<select id="paint_color_options"></select>
 		<div id="legend"></div>
 		<div id="right_panel">
-			<div id="filters_top_panel">
-				<select id="filter_variable_options"></select>
-				<button id="add_filter">Add</button>
-				<div id="filter_values_options"></div>
-				<table id  ="filters_table"></table>		
-			</div>
+			
 		</div>
 	</div>
 	<div id="bottom_div">
 	<div id="bottom_div_left">
-		<div id="bottom_bar_chart"></div>
 		<div id="bottom_dropdown">
-			<select id="bottom_chart_options">	</select>
-			<div id="maxDate"></div>
+			<div class="text">From </div>
 			<div id="minDate"></div>
+			<div class="text"> to </div>
+			<div id="maxDate"></div>
+			<div class="text"> there has been a total of: </div>
 			<div id="totalValue"></div>	
+			<select id="bottom_chart_options">	</select>
 		</div>
+		<div id="bottom_bar_chart"></div>
 	</div>
-	<div id="bottom_div_right"></div>
+	<div id="bottom_div_right">
+		<div id="filters_top_panel">
+			<select id="filter_variable_options"></select>
+			<button id="add_filter">Add</button>
+			<div id="filter_values_options"></div>	
+		</div>
+		<div id="table_container">
+			<table id  ="filters_table"></table>
+		</div>	
+	</div>
 	</div>
 </body>
 
