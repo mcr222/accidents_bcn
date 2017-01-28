@@ -5,12 +5,20 @@ html, body {
 	height: 98.5%;
 }
 
-#legend {
-	font-family: Arial, sans-serif;
-	background: #fff;
-	padding: 10px;
-	margin: 10px;
-	border: 3px solid #000;
+#legend_content {
+	font-size:12px;
+	display: inline;
+	float: right;
+	background-color: rgba(255,255,255,0.6);
+	max-width:100px;
+}
+
+#circle_legend {
+	 -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+	width:10px;
+	height:10px;
 }
 
 #legend h3 {
@@ -24,6 +32,11 @@ html, body {
 .legend_color {
 	width:5px;
 	height:5px;
+}
+
+#paint_color_options {
+	font-size:12px;
+	display: block;
 }
 
 #top_div {
@@ -46,7 +59,7 @@ html, body {
 
 #filters_top_panel {
 	height: 100%;
-	width:40%;
+	width:41%;
 	float:left;
 	padding-top:10px;
 }
@@ -84,7 +97,7 @@ html, body {
 	font-family:Arial;
 	font-size:12px;
 	font-weight:bold;
-	padding:2px 4px;
+	padding:2px 2px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a;
 }
@@ -123,7 +136,7 @@ html, body {
 	float:right;
 }
 
-table {
+#filters_table  {
 	font-family: arial, sans-serif;
 	font-size: 12px;
 	border-collapse: collapse;
@@ -139,12 +152,12 @@ tr#header {
 	
 }
 
-td, th {
+#filters_table td {
 	border: 1px solid #dddddd;
 	text-align: center;
 }
 
-tr:nth-child(even) {
+#filters_table tr:nth-child(even) {
 	background-color: #dddddd;
 }
 
@@ -252,13 +265,13 @@ tr:nth-child(even) {
 	font-size: 12px;
 }
 
-#maxDate, #minDate, .text {
+.text {
 	font-size: 12px;
 	display: inline-block;
 	
 }
 
-#totalValue {
+#maxDate, #minDate,#totalValue {
 	font-size: 14px;
 	font-weight: bold;
 	display: inline-block;

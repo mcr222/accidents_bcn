@@ -1,4 +1,4 @@
-map.controls[google.maps.ControlPosition.RIGHT_TOP].push(paint_color_options);
+//map.controls[google.maps.ControlPosition.RIGHT_TOP].push(paint_color_options);
 
 var color_options = document.getElementById("paint_color_options");
 var selectedOpt="Week day";
