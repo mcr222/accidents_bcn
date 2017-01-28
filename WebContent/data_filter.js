@@ -39,8 +39,8 @@ function obtain_Date(d){
 	return new Date(data["NK Any"],data["Mes de any"],data["Dia de mes"],data["Hora de dia"],0,0,0);
 }
 
-var minimumDate = new Date(2015,0,0,0,0,0,0);
-var maximumDate =  new Date(2016,2,0,0,0,0,0);
+var minimumDate = new Date(2015,0,30,0,0,0,0);
+var maximumDate =  new Date(2016,1,3,0,0,0,0);
 console.log(minimumDate);
 console.log(maximumDate);
 
