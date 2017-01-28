@@ -142,6 +142,7 @@ html, body {
 	border-collapse: collapse;
 	width: 100%;
 	word-wrap: break-word;
+	word-break: break-all;
 }
 
 tr#header {
