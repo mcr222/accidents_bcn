@@ -1,6 +1,6 @@
-var margin = {top: 30, right: 10, bottom: 10, left: 10},
-    width = 600 - margin.left - margin.right,
-    height = 200 - margin.top - margin.bottom;
+var margin = {top: 30, right: 0, bottom: 15, left: -50},
+    width = 570 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
 
 var x = d3.scaleBand().rangeRound([0, width]).padding(1),
     y = {},
@@ -24,12 +24,12 @@ function paint_parallel_coord_chart() {
 	
 	
 	console.log("painting parallel chart");
-	var chart = d3.select("#bottom_div_right").select("svg");
+	var chart = d3.select("#right_panel").select("svg");
 	if(chart!=null) {	
 		chart.remove();
 	}
 	
-	var svg = d3.select("#bottom_div_right").append("svg")
+	var svg = d3.select("#right_panel").append("svg")
 	    .attr("width", width + margin.left + margin.right)
 	    .attr("height", height + margin.top + margin.bottom)
 	  .append("g")
@@ -55,7 +55,7 @@ function paint_parallel_coord_chart() {
 		//different than "name" it creates and y axis in a dictionary by variable name
 	  x.domain(dimensions = d3.keys(data_accidents[0]).filter(function(d) {
 		if(d!="Numero de lesionats lleus" && d!="Numero de lesionats greus" && d!="Numero de vehicles implicats"
-			&& d!="Numero de morts" && d!="Hora de dia" && d!="Dia de mes" ) {
+			&& d!="Numero de morts" && d!="Hora de dia") {
 			return false;
 		}
 	    return y[d] = d3.scaleLinear()

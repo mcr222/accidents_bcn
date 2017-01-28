@@ -10,16 +10,16 @@ function paint_bottom_bar_chart(){
 	
 	var svg = d3.select("#bottom_bar_chart").append("svg"),
 	    margin = {top: 20, right: 20, bottom: 110, left: 40},
-	    margin2 = {top: 10, right: 20, bottom: 10, left: 10},
-	    width = 600 - margin.left - margin.right,
-	    height = 120 - margin.top - margin.bottom,
-	    height2 = 110 - margin2.top - margin2.bottom;
+	    margin2 = {top: 20, right: 20, bottom: 30, left: 30},
+	    width = 820 - margin.left - margin.right,
+	    height = 160 - margin.top - margin.bottom,
+	    height2 = 160 - margin2.top - margin2.bottom;
 	
 	var dateBuckets = [];
 	currentDate = minimumDate;
 	i=0;
 	while(currentDate.getTime()<maximumDate.getTime()) {
-		currentDate = new Date(currentDate.getTime()+7*86400000);
+		currentDate = new Date(currentDate.getTime()+1*86400000);
 		dateBuckets[i] = {};
 		dateBuckets[i].date = currentDate;
 		dateBuckets[i].total = 0;
@@ -35,7 +35,9 @@ function paint_bottom_bar_chart(){
 	y2 = d3.scaleLinear().range([height2, 0]);
 	
 	var xAxis2 = d3.axisBottom(x2)
-					.ticks(20);
+					.ticks(d3.timeMonth, 1)
+					  .tickFormat(d3.timeFormat("%b %y"));
+
 	
 	var brush = d3.brushX()
 	    .extent([[0, 0], [width, height2]])
@@ -74,7 +76,10 @@ function paint_bottom_bar_chart(){
 
 	  x2.domain(d3.extent(dateBuckets, function(d) { return d.date; }));
 	  y2.domain([0, d3.max(dateBuckets, function(d) { return d.total; })]);
-	
+
+	  var yAxis2 = d3.axisLeft(y2).tickValues([0, d3.max(dateBuckets, function(d) { return d.total; })])
+	  	.tickFormat(d3.format("d"));
+	  
 	  context.append("path")
 	      .datum(dateBuckets)
 	      .attr("class", "area")
@@ -85,6 +90,20 @@ function paint_bottom_bar_chart(){
 	      .attr("transform", "translate(0," + height2 + ")")
 	      .call(xAxis2);
 	
+
+	  context.append("g")
+	      .attr("class", "axis axis--y")
+	      .attr("transform", "translate(0," + 0 + ")")
+	      .call(yAxis2);
+	  
+	  svg.append("text")
+	      .attr("transform", "rotate(-90)")
+	      .attr("y", 0)
+	      .attr("x",-75)
+	      .attr("dy", "1em")
+	      .style("text-anchor", "middle")
+	      .text(translate(dropdown_menu_selected));    
+	  
 	  context.append("g")
 	      .attr("class", "brush")
 	      .call(brush)
