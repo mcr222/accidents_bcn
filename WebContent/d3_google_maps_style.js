@@ -1,11 +1,10 @@
 // Create the Google Map…
 var styledMapType = new google.maps.StyledMapType([
-                                                   {
-                                                	    featureType: "all",
+                                                   {    featureType: "all",
                                                 	    elementType: "labels",
                                                 	    stylers: [
                                                 	      { visibility: "off" }
                                                 	    ]
                                                 	  }
                                                 	],
-                                                	{name:'Styled Map'});
+                                                	{name:'Styled Map'}); 

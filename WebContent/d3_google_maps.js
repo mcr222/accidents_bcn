@@ -5,7 +5,6 @@ var map = new google.maps.Map(d3.select("#main_map").node(), {
 	mapTypeControl: false,
 	streetViewControl: false,
 	scaleControl: true,
-
 	//mapTypeControlOptions: {
 		//mapTypeIds: ['roadmap']
 	//}
