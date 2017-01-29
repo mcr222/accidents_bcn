@@ -34,7 +34,7 @@ function obtain_size(d){
 	if(isNaN(score)) {
 		return 2;
 	}
-	return 2+5*score;
+	return 2.7+5*score;
 }
 
 var colorsWeekdays=["red", "pink", "blue", "green", "yellow", "brown", "orange"];
