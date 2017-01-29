@@ -21,7 +21,7 @@ row.id = "header";
 var cell0 = row.insertCell(0);
 cell0.innerHTML = "Filter variable";
 var cell1 = row.insertCell(1);
-cell1.innerHTML = "Keep this values";
+cell1.innerHTML = "Keep these values";
 var cell2 = row.insertCell(2);
 cell2.innerHTML = "";
 
