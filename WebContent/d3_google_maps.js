@@ -4,7 +4,8 @@ var map = new google.maps.Map(d3.select("#main_map").node(), {
 	zoom: 11,
 	mapTypeControl: false,
 	streetViewControl: false,
-	scaleControl: true
+	scaleControl: true,
+
 	//mapTypeControlOptions: {
 		//mapTypeIds: ['roadmap']
 	//}
@@ -12,8 +13,8 @@ var map = new google.maps.Map(d3.select("#main_map").node(), {
 	//             'styled_map']
 //	}
 });
-//map.mapTypes.set('styled_map', styledMapType);
-//map.setMapTypeId('styled_map');
+map.mapTypes.set('styled_map', styledMapType);
+map.setMapTypeId('styled_map');
 var overlay;
 //var markers = [];
 	
